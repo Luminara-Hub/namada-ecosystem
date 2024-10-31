@@ -31,3 +31,4 @@ Please fill in the columns as follows:
 🟢|🟢|ZENODE Explorer|https://zenode.app/explorer/namada|Monitor network health, endpoints, blocks and IBC transfers.|anodeofzen (ZEN)|zenodeapp|N/A|
 🟢|🟢|Shielded Live Explorer|https://shielded.live/|Real-time data about network, txs, blocks, validators, gov, params, etc.|Mandragora|https://github.com/McDaan|N/A|
 🔴|🟢|Sproutstake Explorer|https://namada-explorer.sproutstake.space/|Data on the state of the network, transactions, blocks, validators, proposals.|Sproutstake|https://github.com/TonyStarkMan2|N/A|
+🔴|🟢|Housefire Testnet Explorer Dashboard|https://dashboard.moonlet.app/dashboard/?blockchain=NAM|Real-time data about validators, uptime, blocks, gov, params, etc.|Moonlet Dashboard|https://github.com/SergiuT|https://github.com/Moonlet/moonlet-dashboard|
