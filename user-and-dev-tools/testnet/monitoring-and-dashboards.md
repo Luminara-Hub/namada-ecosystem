@@ -26,7 +26,8 @@ Please fill in the columns as follows:
 **Note:** To add a new row, just copy an existing line and replace the details, ensuring you keep the "|" character as a column separator.
 -->
 
-| Status | Tool Name | Category | Short Description | Team Name | GitHub Account | GitHub Repo | Additional Note |
-|--------|-----------|----------|-------------------|-----------|----------------|-------------|-----------------|
-| 🟢 | Namada exporter | Monitoring | Prometheus exporter & Dashboard to monitor Namada validator | MELLIFERA | RuslanGlaznyov, evgenykhlivetsky |[github.com/mellifera-labs/namada-exporter](https://github.com/mellifera-labs/namada-exporter) | _ |
+| Status | Tool Name | Category | Short Description                                                          | Team Name | GitHub Account | GitHub Repo | Additional Note |
+|--------|-----------|----------|----------------------------------------------------------------------------|-----------|----------------|-------------|-----------------|
+| 🟢 | Namada exporter | Monitoring | Prometheus exporter & Dashboard to monitor Namada validator                | MELLIFERA | RuslanGlaznyov, evgenykhlivetsky |[github.com/mellifera-labs/namada-exporter](https://github.com/mellifera-labs/namada-exporter) | _ |
 | 🟢 | Namada Node Dashboard | Monitoring/Alerting | All-in-one Namada node monitoring stack with Dashboard and Telegram alerts | kjnodes | kjnodes |[https://github.com/kjnodes/namada-node-monitoring](https://github.com/kjnodes/namada-node-monitoring) | _ |
+| 🟢 | Tenderduty | Monitoring/Alerting | Modified version of Tenderduty with fixed uptime representation            | newton-zone | ekhvalov | [https://github.com/ekhvalov/tenderduty](https://github.com/ekhvalov/tenderduty) | _ |

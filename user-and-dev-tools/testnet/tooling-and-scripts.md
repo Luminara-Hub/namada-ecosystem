@@ -30,3 +30,4 @@ Please fill in the columns as follows:
 |-----------------|------------------|-----------|-------------------|-----------|----------------|-------------|-----------------|
 |N/A|N/A| Namada Self-Host |Quickly deploy two local Namada blockchain nodes and Hermes (for IBC transactions) with Docker containers|EmberStake|https://github.com/0x4r45h|https://github.com/EmberStake/namada-selfhost|N/A|
 |N/A|N/A| Namada Up!       | Easiest way to Run a Namada Node/Validator with out-of-box Grafana dashboards using Docker compose        |EmberStake|https://github.com/0x4r45h| https://github.com/EmberStake/namada-up       |N/A|
+|N/A|N/A| CometPrune | Prunes a CometBFT blockchain and keeps only certain amount of the latest blocks                           | newton-zone | https://github.com/ekhvalov | https://github.com/ekhvalov/cometprune | N/A             |
