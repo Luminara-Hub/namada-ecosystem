@@ -29,3 +29,4 @@ Please fill in the columns as follows:
 | Campfire Status | Housefire Status | Tool Name | URL             | Short Description                       | Team Name   | GitHub Account   | GitHub Repo     |
 |-----------------|------------------|-----------|-----------------|-----------------------------------------|-------------|------------------|-----------------|
 |n/a              |    🟢           |Namadillo   |https://interface.knowable.run| `Namadillo` instance for the housefire chain|Knowable| https://github.com/vknowable | https://github.com/anoma/namada-interface|
+|n/a              |    🟢           |Namadillo   |https://housefire-interface.sproutstake.space/| `Namadillo` instance for the housefire chain|Sproutstake|  | https://github.com/anoma/namada-interface|
