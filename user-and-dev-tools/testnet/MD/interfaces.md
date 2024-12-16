@@ -15,3 +15,11 @@
 - **Discord UserName**: oneplus
 - **GitHub Account**: N/A
 
+---
+- **Interface Name (Namadillo or Custom)**: Namadillo
+- **Interface URL**: https://interface.knowable.run
+- **Notes**: N/A
+- **Team or Contributor Name**: Knowable
+- **Discord UserName**: spork | knowable
+- **GitHub Account**: vknowable
+
