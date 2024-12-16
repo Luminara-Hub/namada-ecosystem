@@ -139,3 +139,10 @@
 - **Discord UserName**: architectnodes
 - **GitHub Account**: social244305-Architect
 
+---
+- **Which Indexer**: namada-indexer
+- **Indexer API URL**: https://namada-indexer.konsortech.xyz
+- **Team or Contributor Name**: KonsorTech
+- **Discord UserName**: konsortech
+- **GitHub Account**: konsortech
+
