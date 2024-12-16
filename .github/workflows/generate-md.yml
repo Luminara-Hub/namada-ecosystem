@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name "GitHub Action"
           git config user.email "actions@github.com"
-          git add user-and-dev-tools/**/MD/*.md
+          git add -A
           git commit -m "Update generated Markdown files"
           git push
         env:
