@@ -52,7 +52,7 @@ def generate_markdown_files(files_keys_exclude):
             if isinstance(data, list):
                 for idx, obj in enumerate(data, start=1):
                     #markdown_content += f"## Entry {idx}\n"
-                    if idx is not 1:
+                    if idx != 1:
                       markdown_content += f"---\n"
                     for key, value in obj.items():
                         if key in excluded_keys:
