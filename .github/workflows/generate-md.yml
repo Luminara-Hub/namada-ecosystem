@@ -1,0 +1,34 @@
+name: Generate Markdown on Merge
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-md:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      # - name: Install dependencies
+      #   run: pip install --no-cache-dir -r requirements.txt
+
+      - name: Run Markdown generation script
+        run: python scripts/gen-tools-md.py
+
+      - name: Commit generated Markdown files
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "actions@github.com"
+          git add user-and-dev-tools/**/MD/*.md
+          git commit -m "Update generated Markdown files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
