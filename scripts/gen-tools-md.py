@@ -2,10 +2,10 @@ import os
 import json
 import shutil
 
-def remove_existing_markdown_files(base_dir, subdirs):
-    """Remove all existing markdown files in the 'MD' directories."""
+def remove_existing_markdown_files(base_dir, gitbook_dir, subdirs):
+    """Remove all existing markdown files in the gitbook directories."""
     for subdir in subdirs:
-        md_dir = os.path.join(base_dir, subdir, "MD")
+        md_dir = os.path.join(base_dir, gitbook_dir, subdir)
         if os.path.exists(md_dir):
             shutil.rmtree(md_dir)
         os.makedirs(md_dir, exist_ok=True)
@@ -17,13 +17,14 @@ def generate_markdown_files(files_keys_exclude):
     """
     subdirs = ["mainnet", "testnet"]
     base_dir = "user-and-dev-tools"
+    gitbook_dir = "gitbook"
 
     # Remove any existing markdown files
-    remove_existing_markdown_files(base_dir, subdirs)
+    remove_existing_markdown_files(base_dir, gitbook_dir, subdirs)
 
     for subdir in subdirs:
         json_dir = os.path.join(base_dir, subdir)
-        md_dir = os.path.join(json_dir, "MD")
+        md_dir = os.path.join(base_dir, gitbook_dir, subdir)
         os.makedirs(md_dir, exist_ok=True)
 
         for file_name in os.listdir(json_dir):
