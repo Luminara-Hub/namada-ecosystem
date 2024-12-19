@@ -6,5 +6,5 @@
 * [FAQ](./faq.md)
 
 ## Resources
-* [Mainnet Resources](./mainnet/)
-* [Testnet Resources](./testnet/)
+* [Mainnet Resources](./mainnet/README.md)
+* [Testnet Resources](./testnet/README.md)
