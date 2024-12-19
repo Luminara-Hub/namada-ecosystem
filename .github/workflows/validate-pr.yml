@@ -1,0 +1,25 @@
+name: Validate PR
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate-script:
+    name: Can merge
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      # - name: Install dependencies
+      #   run: pip install --no-cache-dir -r requirements.txt
+
+      - name: Run Markdown generation script
+        run: python scripts/gen-tools-md.py
