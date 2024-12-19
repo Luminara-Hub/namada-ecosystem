@@ -10,7 +10,7 @@ Here, you can find an up-to-date registry of:
 - Other community-made tools
 - and more 🙂
 
-**Are you hosting infra or some other tool?** Get listed here by making a PR to this repo! Just find and update the relevant json file in the [user-and-dev-tools](../../user-and-dev-tools/) directory with your info.
+**Are you hosting infra or some other tool?** Get listed here by making a PR to this repo! Just find and update the relevant json file in the [user-and-dev-tools](https://github.com/Luminara-Hub/namada-ecosystem/tree/main/user-and-dev-tools) directory with your info.
 
 ### Quick Links
 - [Mainnet Resources](https://luminara-namada.gitbook.io/namada-ecosystem/resources/mainnet)
