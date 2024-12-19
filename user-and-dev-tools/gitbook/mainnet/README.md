@@ -5,7 +5,7 @@
 - [Namada-Indexers](namada-indexers.md)
 - [Seeds](seeds/)
 - [Monitoring-And-Dashboards](monitoring-and-dashboards.md)
-- [Snapshots](snapshots.md)
+- [Snapshots](https://luminara-namada.gitbook.io/namada-ecosystem/resources/mainnet/snapshots)
 - [Tooling-And-Scripts](tooling-and-scripts.md)
 - [Rpc](rpc.md)
 - [Peers](peers.md)
