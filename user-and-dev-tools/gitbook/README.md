@@ -18,5 +18,6 @@ Here, you can find an up-to-date registry of:
 - [FAQ](./faq)
 
 ---
+
 These docs are publicly hosted on GitBook at https://luminara-namada.gitbook.io/namada-ecosystem.
 Suggest improvements by creating an issue or pull request at the [namada-ecosystem](https://github.com/Luminara-Hub/namada-ecosystem) repo.
