@@ -10,6 +10,23 @@ def remove_existing_markdown_files(base_dir, gitbook_dir, subdirs):
             shutil.rmtree(md_dir)
         os.makedirs(md_dir, exist_ok=True)
 
+def generate_summary_file(base_dir, gitbook_dir, subdirs, resources_links):
+    """Generate the SUMMARY.md file."""
+    summary_path = os.path.join(base_dir, gitbook_dir, "SUMMARY.md")
+    summary_content = "# Summary\n\n## About\n\n* [Home](./README.md)\n* [FAQ](./faq.md)\n\n## Resources\n"
+
+    for subdir, links in resources_links.items():
+        summary_content += f"* [{subdir.title()} Resources](./{subdir}/README.md)\n"
+        for title, path in links:
+            summary_content += f"    * [{title}](./{path})\n"
+
+    try:
+        with open(summary_path, "w") as summary_file:
+            summary_file.write(summary_content)
+        print(f"Generated {summary_path}")
+    except IOError as e:
+        print(f"Error writing to {summary_path}: {e}")
+
 def generate_markdown_files(files_keys_exclude):
     """
     Generate markdown files from the Json input files.
@@ -18,9 +35,12 @@ def generate_markdown_files(files_keys_exclude):
     subdirs = ["mainnet", "testnet"]
     base_dir = "user-and-dev-tools"
     gitbook_dir = "gitbook"
+    base_url = "https://luminara-namada.gitbook.io/namada-ecosystem/resources"
 
     # Remove any existing markdown files
     remove_existing_markdown_files(base_dir, gitbook_dir, subdirs)
+
+    resources_links = {subdir: [] for subdir in subdirs}
 
     for subdir in subdirs:
         json_dir = os.path.join(base_dir, subdir)
@@ -71,7 +91,11 @@ def generate_markdown_files(files_keys_exclude):
                 print(f"Generated {md_file_path}")
 
                 # Add link to README content
-                readme_content += f"- [{md_file_name.replace('.md', '').title()}]({md_file_name})\n"
+                link = f"{base_url}/{subdir}/{md_file_name.replace('.md', '')}"
+                readme_content += f"- [{md_file_name.replace('.md', '').title()}]({link})\n"
+
+                # Add link to resources for SUMMARY.md
+                resources_links[subdir].append((md_file_name.replace('.md', '').title(), f"{subdir}/{md_file_name}"))
             except IOError as e:
                 print(f"Error writing to {md_file_path}: {e}")
 
@@ -83,6 +107,9 @@ def generate_markdown_files(files_keys_exclude):
             print(f"Generated {readme_file_path}")
         except IOError as e:
             print(f"Error writing to {readme_file_path}: {e}")
+
+    # Generate the SUMMARY.md file
+    generate_summary_file(base_dir, gitbook_dir, subdirs, resources_links)
 
 if __name__ == "__main__":
     # Load the list of files and keys to exclude from the markdown

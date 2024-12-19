@@ -12,12 +12,8 @@ Here, you can find an up-to-date registry of:
 
 **Are you hosting infra or some other tool?** Get listed here by making a PR to this repo! Just find and update the relevant json file in the [user-and-dev-tools](https://github.com/Luminara-Hub/namada-ecosystem/tree/main/user-and-dev-tools) directory with your info.
 
-### Quick Links
-- [Mainnet Resources](https://luminara-namada.gitbook.io/namada-ecosystem/resources/mainnet)
-- [Testnet Resources](https://luminara-namada.gitbook.io/namada-ecosystem/resources/testnet)
-- [FAQ](https://luminara-namada.gitbook.io/namada-ecosystem/about/faq)
-
 ---
 
 These docs are publicly hosted on GitBook at https://luminara-namada.gitbook.io/namada-ecosystem.
+
 Suggest improvements by creating an issue or pull request at the [namada-ecosystem](https://github.com/Luminara-Hub/namada-ecosystem) repo.
