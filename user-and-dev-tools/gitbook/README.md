@@ -13,9 +13,9 @@ Here, you can find an up-to-date registry of:
 **Are you hosting infra or some other tool?** Get listed here by making a PR to this repo! Just find and update the relevant json file in the [user-and-dev-tools](../../user-and-dev-tools/) directory with your info.
 
 ### Quick Links
-- [Mainnet Resources](./mainnet/)
-- [Testnet Resources](./testnet/)
-- [FAQ](./faq)
+- [Mainnet Resources](/mainnet/README.md)
+- [Testnet Resources](/testnet/README.md)
+- [FAQ](/faq/README.md)
 
 ---
 
