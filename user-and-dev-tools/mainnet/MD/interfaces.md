@@ -143,3 +143,11 @@
 - **Discord UserName**: bacovalley
 - **GitHub Account**: https://github.com/hubofvalley
 
+---
+- **Interface Name (Namadillo or Custom)**: Namadillo
+- **Interface URL**: https://namadillo.murphynode.net/
+- **Notes**: N/A
+- **Team or Contributor Name**: MurphyNode
+- **Discord UserName**: lyeoeon
+- **GitHub Account**: https://github.com/lyeoeon1
+

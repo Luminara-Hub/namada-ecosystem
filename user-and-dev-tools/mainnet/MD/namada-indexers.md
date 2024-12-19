@@ -146,3 +146,10 @@
 - **Discord UserName**: konsortech
 - **GitHub Account**: konsortech
 
+---
+- **Which Indexer**: namada-indexer
+- **Indexer API URL**: https://indexer.namada.murphynode.net
+- **Team or Contributor Name**: MurphyNode
+- **Discord UserName**: lyeoeon
+- **GitHub Account**: https://github.com/lyeoeon1
+

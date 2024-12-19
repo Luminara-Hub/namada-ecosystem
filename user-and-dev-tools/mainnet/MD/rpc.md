@@ -233,3 +233,9 @@
 - **Discord UserName**: architectnodes
 - **GitHub Account**: social244305-Architect
 
+---
+- **RPC Address**: https://namada-rpc.murphynode.net
+- **Team or Contributor Name**: MurphyNode
+- **Discord UserName**: lyeoeon
+- **GitHub Account**: https://github.com/lyeoeon1
+
