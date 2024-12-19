@@ -27,6 +27,8 @@ def generate_markdown_files(files_keys_exclude):
         md_dir = os.path.join(base_dir, gitbook_dir, subdir)
         os.makedirs(md_dir, exist_ok=True)
 
+        readme_content = f"# {subdir.title()} Resources\n\n"
+
         for file_name in os.listdir(json_dir):
             if not file_name.endswith(".json"):
                 continue
@@ -52,9 +54,8 @@ def generate_markdown_files(files_keys_exclude):
             # Iterate over each object in JSON array
             if isinstance(data, list):
                 for idx, obj in enumerate(data, start=1):
-                    #markdown_content += f"## Entry {idx}\n"
                     if idx != 1:
-                      markdown_content += f"---\n"
+                        markdown_content += f"---\n"
                     for key, value in obj.items():
                         if key in excluded_keys:
                             continue
@@ -62,13 +63,26 @@ def generate_markdown_files(files_keys_exclude):
                     markdown_content += "\n"
 
             # Write markdown file
-            md_file_path = os.path.join(md_dir, file_name.replace(".json", ".md"))
+            md_file_name = file_name.replace(".json", ".md")
+            md_file_path = os.path.join(md_dir, md_file_name)
             try:
                 with open(md_file_path, "w") as md_file:
                     md_file.write(markdown_content)
                 print(f"Generated {md_file_path}")
+
+                # Add link to README content
+                readme_content += f"- [{md_file_name.replace('.md', '').title()}]({md_file_name})\n"
             except IOError as e:
                 print(f"Error writing to {md_file_path}: {e}")
+
+        # Write README.md file
+        readme_file_path = os.path.join(md_dir, "README.md")
+        try:
+            with open(readme_file_path, "w") as readme_file:
+                readme_file.write(readme_content)
+            print(f"Generated {readme_file_path}")
+        except IOError as e:
+            print(f"Error writing to {readme_file_path}: {e}")
 
 if __name__ == "__main__":
     # Load the list of files and keys to exclude from the markdown
