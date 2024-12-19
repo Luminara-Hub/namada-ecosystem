@@ -3,7 +3,7 @@
 - [Ibc-Relayers](https://luminara-namada.gitbook.io/namada-ecosystem/resources/mainnet/ibc-relayers.md)
 - [Explorers](explorers.md)
 - [Namada-Indexers](namada-indexers.md)
-- [Seeds](seeds.md)
+- [Seeds](seeds/)
 - [Monitoring-And-Dashboards](monitoring-and-dashboards.md)
 - [Snapshots](snapshots.md)
 - [Tooling-And-Scripts](tooling-and-scripts.md)
