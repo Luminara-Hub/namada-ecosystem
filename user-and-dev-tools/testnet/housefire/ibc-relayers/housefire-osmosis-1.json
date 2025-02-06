@@ -1,5 +1,5 @@
-[
-  {
+{
+  "network_configuration": {
     "chains": [
       {
         "chain_id": "housefire-alpaca.cc0d3e0c033be",
@@ -41,5 +41,10 @@
         }
       }
     ]
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "timestamp": "2023-10-01T12:00:00Z",
+    "author": "housefire"
   }
-]
+}
