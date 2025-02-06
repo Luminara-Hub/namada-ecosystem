@@ -1,0 +1,51 @@
+{
+    "network_configuration": {
+      "chains": [
+        {
+          "chain_id": "housefire-alpaca.cc0d3e0c033be",
+          "client_id": "07-tendermint-14",
+          "connection_id": "connection-6",
+          "channel_id": "channel-6",
+          "port_id": "transfer",
+          "supported_tokens": [
+            {
+              "denom": "tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7",
+              "symbol": "NAM",
+              "decimals": 6
+            }
+          ]
+        },
+        {
+          "chain_id": "osmo-test-5",
+          "client_id": "07-tendermint-4376",
+          "connection_id": "connection-3813",
+          "channel_id": "channel-10087",
+          "port_id": "transfer",
+          "supported_tokens": [
+            {
+              "denom": "uosmo",
+              "symbol": "OSMO",
+              "decimals": 6
+            }
+          ]
+        }
+      ],
+      "relayers": [
+        {
+          "team_or_contributor_name": "papadritta",
+          "discord_username": "papadritta",
+          "github_account": "papadritta",
+          "relayer_wallet_address": {
+            "housefire": "tnam1qz7et7gtr5ruj0yaj9y3p8c7ey39rzqpts3sm7a3",
+            "osmo-test-5": "osmo17npj3xmm4dhl705tthw0qev93938jphwe7pmqk"
+          }
+        }
+      ]
+    },
+    "metadata": {
+      "version": "1.0.0",
+      "timestamp": "2023-10-01T12:00:00Z",
+      "author": "housefire"
+    }
+  }
+  
