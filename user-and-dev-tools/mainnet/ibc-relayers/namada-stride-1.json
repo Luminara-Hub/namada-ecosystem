@@ -42,11 +42,21 @@
     ],
     "relayers": [
       {
+        "team_or_contributor_name": "Mandragora",
+        "discord_username": "danielmandragora",
+        "github_account": "McDaan",
+        "creator_maintainer": "yes",
+        "relayer_wallet_address": {
+          "namada": "tnam1qp467577tlh0r3kl8xekxrj8ea3r898ffszn7q4d",
+          "stride-1": "stride17mhy2662y598awhsrln7apz00ye6v4r9pyy4dq"
+        }
+      },
+      {
         "team_or_contributor_name": "max-03",
         "discord_username": "power542",
         "github_account": "maxpower-01",
         "relayer_wallet_address": {
-          "housefire": "tnam1qzff7crvt7zenlw07w5q0a7hm05ymsg5tqzn8ttc",
+          "namada": "tnam1qzff7crvt7zenlw07w5q0a7hm05ymsg5tqzn8ttc",
           "stride-1": "stride1ac8va444x67ghwsersq6sssywcx67h75npvggw"
         }
       }
