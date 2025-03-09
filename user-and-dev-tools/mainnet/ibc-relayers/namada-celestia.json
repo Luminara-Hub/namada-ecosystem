@@ -3,7 +3,7 @@
     "chains": [
       {
         "chain_name": "NAMADA",
-        "logo_url": "https://namada.community/IMG/namada-logo.png", 
+        "logo_url": "https://namada.community/IMG/namada-logo.png",
         "chain_id": "namada.5f5de2dd1b88cba30586420",
         "client_id": "07-tendermint-4",
         "connection_id": "connection-3",
@@ -19,7 +19,7 @@
       },
       {
         "chain_name": "CELESTIA",
-        "logo_url": "https://namada.community/IMG/celestia-logo.svg", 
+        "logo_url": "https://namada.community/IMG/celestia-logo.svg",
         "chain_id": "celestia",
         "client_id": "07-tendermint-105",
         "connection_id": "connection-72",
@@ -113,6 +113,16 @@
         "relayer_wallet_address": {
           "namada": "tnam1qr8z58egh28eh5k7ed4jwt646acerlzs0q6r2u0n",
           "celestia": "celestia1qx6nnykvn390su7hrtunvdj509khadehgchpnt"
+        }
+      },
+      {
+        "team_or_contributor_name": "LoserBoy",
+        "discord_username": "tonymarma",
+        "github_account": "tonymarma",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qzzwcgj4r6qj60acj6wr95xqmh6k9kz3vs0vgm0s",
+          "celestia": "celestia1hn635w0h807r3laaz0umzrwz7xxu4rvst5ucvl"
         }
       }
     ]
