@@ -1,17 +1,17 @@
 {
   "opportunity": {
-    "title": "Analytics: Community-Centric Privacy Metrics",
-    "shortDescription": "Create and develop privacy metrics that measure privacy strength and integrate them into a dynamic dashboard. This dashboard will provide actionable insights to guide community and protocol decisions, including the evaluation of shielded reward incentives.",
+    "title": "Analytics: Namada metrics dashboard",
+    "shortDescription": "This is being worked on: https://forum.namada.net/t/introducing-a-new-namada-metrics-dashboard/1619 \nAs Phase 4 approaches, we need to know key metrics about what's happening in Namada, such as tokens deposited in the MASP and the rate of rewards they are earning. Next we would like to explore the metrics that help evaluate privacy strength.",
     "proposer": {
       "name": "Gavin (Luminara)",
       "contact": "hello@luminara.icu"
     },
     "participants": [
       {
-        "name": "",
-        "contact": ""
+        "name": "Spork (Knowable), Chris H (Heliax)",
+        "contact": "sporkknowable (Discord); .chrisholt (Discord"
       }
     ],
-    "status": "Open"
+    "status": "In Progress"
   }
 }
