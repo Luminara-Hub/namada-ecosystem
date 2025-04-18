@@ -1,0 +1,34 @@
+{
+  "namada": {
+    "interface": {
+      "required_version": "1.19.0",
+      "minimum_acceptable_version": "1.18.0"
+    },
+    "services": {
+      "rpc": {
+        "required_version": "0.37.15",
+        "minimum_acceptable_version": "0.37.15",
+        "block_lag_thresholds": {
+          "healthy": 100,
+          "max": 300
+        }
+      },
+      "indexer": {
+        "required_version": "2.4.4",
+        "minimum_acceptable_version": "2.3.0",
+        "block_lag_thresholds": {
+          "healthy": 100,
+          "max": 300
+        }
+      },
+      "masp": {
+        "required_version": "1.2.1",
+        "minimum_acceptable_version": "1.2.0",
+        "block_lag_thresholds": {
+          "healthy": 100,
+          "max": 300
+        }
+      }
+    }
+  }
+}
