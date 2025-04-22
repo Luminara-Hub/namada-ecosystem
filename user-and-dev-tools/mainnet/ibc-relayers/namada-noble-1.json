@@ -5,9 +5,9 @@
         "chain_name": "NAMADA",
         "logo_url": "https://namada.community/IMG/namada-logo.png", 
         "chain_id": "namada.5f5de2dd1b88cba30586420",
-        "client_id": "07-tendermint-10",
-        "connection_id": "connection-7",
-        "channel_id": "channel-6",
+        "client_id": "07-tendermint-8",
+        "connection_id": "connection-6",
+        "channel_id": "channel-5",
         "port_id": "transfer",
         "supported_tokens": [
           {
@@ -42,7 +42,7 @@
         "creator_maintainer": "yes",
         "relayer_wallet_address": {
           "namada": "tnam1qp467577tlh0r3kl8xekxrj8ea3r898ffszn7q4d",
-          "penumbra-1": ""
+          "noble-1": "noble17mhy2662y598awhsrln7apz00ye6v4r92v3ppz"
         }
       }
     ]
