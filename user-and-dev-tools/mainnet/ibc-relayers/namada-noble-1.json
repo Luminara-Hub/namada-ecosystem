@@ -1,0 +1,55 @@
+[
+  {
+    "chains": [
+      {
+        "chain_name": "NAMADA",
+        "logo_url": "https://namada.community/IMG/namada-logo.png", 
+        "chain_id": "namada.5f5de2dd1b88cba30586420",
+        "client_id": "07-tendermint-8",
+        "connection_id": "connection-6",
+        "channel_id": "channel-5",
+        "port_id": "transfer",
+        "supported_tokens": [
+          {
+            "denom": "tnam1q9gr66cvu4hrzm0sd5kmlnjje82gs3xlfg3v6nu7",
+            "symbol": "NAM",
+            "decimals": 6
+          }
+        ]
+      },
+      {
+        "chain_name": "NOBLE",
+        "logo_url": "https://namada.community/IMG/noble-logo.svg",
+        "chain_id": "noble-1",
+        "client_id": "07-tendermint-153",
+        "connection_id": "connection-143",
+        "channel_id": "channel-136",
+        "port_id": "transfer",
+        "supported_tokens": [
+          {
+            "denom": "uusdc",
+            "symbol": "USDC",
+            "decimals": 6
+          },
+          {
+            "denom": "uusdn",
+            "symbol": "USDN",
+            "decimals": 6
+          }
+        ]
+      }
+    ],
+    "relayers": [
+      {
+        "team_or_contributor_name": "Mandragora",
+        "discord_username": "danielmandragora",
+        "github_account": "McDaan",
+        "creator_maintainer": "yes",
+        "relayer_wallet_address": {
+          "namada": "tnam1qp467577tlh0r3kl8xekxrj8ea3r898ffszn7q4d",
+          "noble-1": "noble17mhy2662y598awhsrln7apz00ye6v4r92v3ppz"
+        }
+      }
+    ]
+  }
+]

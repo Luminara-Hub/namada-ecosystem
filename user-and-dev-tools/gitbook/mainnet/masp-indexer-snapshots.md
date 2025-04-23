@@ -1,8 +1,0 @@
-# Masp-Indexer-Snapshots
-
-- **Snapshot Link**: https://docs.emberstake.xyz/networks/namada/snapshots#namada-masp-indexer-database-snapshot
-- **Update Frequency**: 24h
-- **Team or Contributor Name**: EmberStake
-- **Discord UserName**: 4rash
-- **GitHub Account**: EmberStake
-

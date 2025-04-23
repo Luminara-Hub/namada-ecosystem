@@ -2,6 +2,8 @@
   {
     "chains": [
       {
+        "chain_name": "NAMADA",
+        "logo_url": "https://namada.community/IMG/namada-logo.png", 
         "chain_id": "namada.5f5de2dd1b88cba30586420",
         "client_id": "07-tendermint-2",
         "connection_id": "connection-1",
@@ -16,6 +18,8 @@
         ]
       },
       {
+        "chain_name": "OSMOSIS",
+        "logo_url": "https://namada.community/IMG/osmosis-logo.png",
         "chain_id": "osmosis-1",
         "client_id": "07-tendermint-3433",
         "connection_id": "connection-10590",
@@ -42,7 +46,7 @@
         }
       },
       {
-        "team_or_contributor_name": "max-03",
+        "team_or_contributor_name": "max-02",
         "discord_username": "power542",
         "github_account": "maxpower-01",
         "creator_maintainer": "no",
@@ -99,6 +103,66 @@
         "relayer_wallet_address": {
           "namada": "tnam1qz4349xxw53a2hhnnejvth048xx0dgzgz5q2pckd",
           "osmosis-1": "osmo1x7zpfu627g58xfrqxl2awva4j45lhnzll78yqn"
+        }
+      },
+      {
+        "team_or_contributor_name": "TdrSys",
+        "discord_username": "tdr4877",
+        "github_account": "t3d3r3",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qzhsyg6ythutksrcnujgs0847faer2d3mvamlfz7",
+          "osmosis-1": "osmo1uus3hw7he29lnnplt32k979zpn6wtrh5zm2h7c"
+        }
+      },
+      {
+        "team_or_contributor_name": "Inter Blockchain Services",
+        "discord_username": "remiinterblockchainservices",
+        "github_account": "Remi-IBS",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qr4xqmsrnzsh7xnkzykvrm6f2nw0eps2l5zvudts",
+          "osmosis-1": "osmo14uyfxlv00lj0qhcwt7vms2rsf7kxuld7umtzvw"
+        }
+      },
+      {
+        "team_or_contributor_name": "Stake&Relax 🦥",
+        "discord_username": "manueldb2",
+        "github_account": "StakeandRelax-Validator",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qr8z58egh28eh5k7ed4jwt646acerlzs0q6r2u0n",
+          "osmosis-1": "osmo1qx6nnykvn390su7hrtunvdj509khadeh3f4pl5"
+        }
+      },
+      {
+        "team_or_contributor_name": "ArchitectNodes",
+        "discord_username": "architectnodes",
+        "github_account": "social244305-Architect",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qqwv4vmsec0870tha6vzw4mmwfq6h0sv4gpnz29n",
+          "osmosis-1": "osmo1w8kzcqk25vr0fx0k7yxn2vjw49qerut2rjlh2n"
+        }
+      },
+      {
+        "team_or_contributor_name": "ContributionDAO",
+        "discord_username": "pongchain, ntpcontribute",
+        "github_account": "llPorZall, addicola",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qp8fnu6nqwprcd25pl44mv0qmkvxt0gj9qcptehl",
+          "osmosis-1": "osmo1794lvr70hcxxckqm6dzktsr7sduh8qg2fdy6re"
+        }
+      },
+      {
+        "team_or_contributor_name": "Citizen Web3",
+        "discord_username": "serejandmyself_citizenweb3, alibabaedge",
+        "github_account": "serejandmyself, alibabaedge",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qzxw2ls5vene79qlelves5ukaqykldm00gec8xt0",
+          "osmosis-1": "osmo1fl92605jdx79tu0hcynzy0fxmvrjaehvydtfer"
         }
       }
     ]

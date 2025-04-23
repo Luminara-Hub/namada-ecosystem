@@ -2,6 +2,8 @@
   {
     "chains": [
       {
+        "chain_name": "NAMADA",
+        "logo_url": "https://namada.community/IMG/namada-logo.png", 
         "chain_id": "namada.5f5de2dd1b88cba30586420",
         "client_id": "07-tendermint-3",
         "connection_id": "connection-2",
@@ -16,6 +18,8 @@
         ]
       },
       {
+        "chain_name": "COSMOS HUB",
+        "logo_url": "https://namada.community/IMG/cosmos-hub-logo.svg", 
         "chain_id": "cosmoshub-4",
         "client_id": "07-tendermint-1351",
         "connection_id": "connection-1089",
@@ -42,7 +46,7 @@
         }
       },
       {
-        "team_or_contributor_name": "max-03",
+        "team_or_contributor_name": "max-02",
         "discord_username": "power542",
         "github_account": "maxpower-01",
         "creator_maintainer": "no",
@@ -98,7 +102,47 @@
         "creator_maintainer": "no",
         "relayer_wallet_address": {
           "namada": "tnam1qz4349xxw53a2hhnnejvth048xx0dgzgz5q2pckd",
-          "celestia": "cosmos1x7zpfu627g58xfrqxl2awva4j45lhnzlh955kp"
+          "cosmoshub-4": "cosmos1x7zpfu627g58xfrqxl2awva4j45lhnzlh955kp"
+        }
+      },
+      {
+        "team_or_contributor_name": "Inter Blockchain Services",
+        "discord_username": "remiinterblockchainservices",
+        "github_account": "Remi-IBS",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qr4xqmsrnzsh7xnkzykvrm6f2nw0eps2l5zvudts",
+          "cosmoshub-4": "cosmos14uyfxlv00lj0qhcwt7vms2rsf7kxuld75qcj6u"
+        }
+      },
+      {
+        "team_or_contributor_name": "Stake&Relax 🦥",
+        "discord_username": "manueldb2",
+        "github_account": "StakeandRelax-Validator",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qr8z58egh28eh5k7ed4jwt646acerlzs0q6r2u0n",
+          "cosmoshub-4": "cosmos1qx6nnykvn390su7hrtunvdj509khadehejx3fx"
+        }
+      },
+      {
+        "team_or_contributor_name": "ArchitectNodes",
+        "discord_username": "architectnodes",
+        "github_account": "social244305-Architect",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qqwv4vmsec0870tha6vzw4mmwfq6h0sv4gpnz29n",
+          "cosmoshub-4": "cosmos1w8kzcqk25vr0fx0k7yxn2vjw49qerut2tfv8up"
+        }
+      },
+      {
+        "team_or_contributor_name": "Citizen Web3",
+        "discord_username": "serejandmyself_citizenweb3, alibabaedge",
+        "github_account": "serejandmyself, alibabaedge",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qzxw2ls5vene79qlelves5ukaqykldm00gec8xt0",
+          "cosmoshub-4": "cosmos1fl92605jdx79tu0hcynzy0fxmvrjaehvvkce03"
         }
       }
     ]

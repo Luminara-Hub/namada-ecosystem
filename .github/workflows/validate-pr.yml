@@ -21,5 +21,8 @@ jobs:
       # - name: Install dependencies
       #   run: pip install --no-cache-dir -r requirements.txt
 
-      - name: Run Markdown generation script
-        run: python _luminara-homebase/scripts/gen-tools-md.py
+      # - name: Run Markdown generation script
+      #   run: python _luminara-homebase/scripts/gen-tools-md.py
+
+      - name: Run JSON generation script
+        run: python _luminara-homebase/scripts/gen-contributors-json.py

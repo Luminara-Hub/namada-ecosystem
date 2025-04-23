@@ -2,6 +2,8 @@
   {
     "chains": [
       {
+        "chain_name": "NAMADA",
+        "logo_url": "https://namada.community/IMG/namada-logo.png", 
         "chain_id": "namada.5f5de2dd1b88cba30586420",
         "client_id": "07-tendermint-1",
         "connection_id": "connection-0",
@@ -16,6 +18,8 @@
         ]
       },
       {
+        "chain_name": "STRIDE",
+        "logo_url": "https://namada.community/IMG/stride-logo.svg",
         "chain_id": "stride-1",
         "client_id": "07-tendermint-154",
         "connection_id": "connection-157",
@@ -52,7 +56,7 @@
         }
       },
       {
-        "team_or_contributor_name": "max-03",
+        "team_or_contributor_name": "max-02",
         "discord_username": "power542",
         "github_account": "maxpower-01",
         "creator_maintainer": "no",
@@ -108,7 +112,57 @@
         "creator_maintainer": "no",
         "relayer_wallet_address": {
           "namada": "tnam1qz4349xxw53a2hhnnejvth048xx0dgzgz5q2pckd",
-          "osmosis-1": "stride1x7zpfu627g58xfrqxl2awva4j45lhnzl5w5gzd"
+          "stride-1": "stride1x7zpfu627g58xfrqxl2awva4j45lhnzl5w5gzd"
+        }
+      },
+      {
+        "team_or_contributor_name": "Inter Blockchain Services",
+        "discord_username": "remiinterblockchainservices",
+        "github_account": "Remi-IBS",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qr4xqmsrnzsh7xnkzykvrm6f2nw0eps2l5zvudts",
+          "stride-1": "stride14uyfxlv00lj0qhcwt7vms2rsf7kxuld7htcwws"
+        }
+      },
+      {
+        "team_or_contributor_name": "Stake&Relax 🦥",
+        "discord_username": "manueldb2",
+        "github_account": "StakeandRelax-Validator",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qr8z58egh28eh5k7ed4jwt646acerlzs0q6r2u0n",
+          "stride-1": "stride1qx6nnykvn390su7hrtunvdj509khadeh6exda2"
+        }
+      },
+      {
+        "team_or_contributor_name": "ArchitectNodes",
+        "discord_username": "architectnodes",
+        "github_account": "social244305-Architect",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qqwv4vmsec0870tha6vzw4mmwfq6h0sv4gpnz29n",
+          "stride-1": "stride1w8kzcqk25vr0fx0k7yxn2vjw49qerut2gzvmgd"
+        }
+      },
+      {
+        "team_or_contributor_name": "ContributionDAO",
+        "discord_username": "pongchain, ntpcontribute",
+        "github_account": "llPorZall, addicola",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qp8fnu6nqwprcd25pl44mv0qmkvxt0gj9qcptehl",
+          "stride-1": "stride1794lvr70hcxxckqm6dzktsr7sduh8qg2zahkp8"
+        }
+      },
+      {
+        "team_or_contributor_name": "Citizen Web3",
+        "discord_username": "serejandmyself_citizenweb3, alibabaedge",
+        "github_account": "serejandmyself, alibabaedge",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qzxw2ls5vene79qlelves5ukaqykldm00gec8xt0",
+          "stride-1": "stride1fl92605jdx79tu0hcynzy0fxmvrjaehv0ac9ma"
         }
       }
     ]

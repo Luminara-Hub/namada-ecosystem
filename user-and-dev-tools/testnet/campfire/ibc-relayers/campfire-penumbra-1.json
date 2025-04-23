@@ -3,9 +3,9 @@
     "chains": [
       {
         "chain_id": "campfire-square.ff09671d333707",
-        "client_id": "07-tendermint-61",
-        "connection_id": "connection-27",
-        "channel_id": "channel-18",
+        "client_id": "07-tendermint-66",
+        "connection_id": "connection-28",
+        "channel_id": "channel-19",
         "port_id": "transfer",
         "supported_tokens": [
           {
@@ -16,15 +16,15 @@
         ]
       },
       {
-        "chain_id": "celestia",
-        "client_id": "07-tendermint-140",
-        "connection_id": "connection-90",
-        "channel_id": "channel-107",
+        "chain_id": "penumbra-1",
+        "client_id": "07-tendermint-17",
+        "connection_id": "connection-13",
+        "channel_id": "channel-12",
         "port_id": "transfer",
         "supported_tokens": [
           {
-            "denom": "utia",
-            "symbol": "TIA",
+            "denom": "upenumbra",
+            "symbol": "UM",
             "decimals": 6
           }
         ]
@@ -38,7 +38,7 @@
         "creator_maintainer": "yes",
         "relayer_wallet_address": {
           "campfire": "tnam1qrrr8vq8dsckt7ugd0e4fmdcmk322thntqv9uhwg",
-          "celestia": "celestia19uavz3w7p6h0ahlyw3wkhuwtynzl9020qr6zhc"
+          "penumbra-1": ""
         }
       }
     ]
