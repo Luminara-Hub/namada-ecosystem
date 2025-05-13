@@ -8141,5 +8141,217 @@
                 "new_value": true
             }
         ]
+    },
+    {
+        "timestamp": "2025-05-13T15:30:12.332972+00:00Z",
+        "changes": [
+            {
+                "team": "MekongLabs",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.interface.version",
+                "type": "modified",
+                "old_value": "1.18.0",
+                "new_value": "1.20.1"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.MekongLabs.service.indexer.service",
+                "type": "removed",
+                "old_value": "indexer",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.MekongLabs.service.indexer.url",
+                "type": "removed",
+                "old_value": "https://indexer.namada.tududes.com:443",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.MekongLabs.service.indexer.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.service.indexer.version",
+                "type": "removed",
+                "old_value": "2.5.4",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.service.indexer.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.indexer.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.MekongLabs.service.masp.service",
+                "type": "removed",
+                "old_value": "masp",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.MekongLabs.service.masp.url",
+                "type": "removed",
+                "old_value": "https://masp.namada.tududes.com:443",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.MekongLabs.service.masp.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.service.masp.version",
+                "type": "removed",
+                "old_value": "1.2.1",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.service.masp.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.MekongLabs.service.rpc.service",
+                "type": "removed",
+                "old_value": "rpc",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.MekongLabs.service.rpc.url",
+                "type": "removed",
+                "old_value": "https://rpc.namada.tududes.com:443",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.MekongLabs.service.rpc.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.service.rpc.version",
+                "type": "removed",
+                "old_value": "0.37.15",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.service.rpc.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.MekongLabs.service.rpc.namada_version",
+                "type": "removed",
+                "old_value": "1.1.5",
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.rpc.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.version",
+                "type": "modified",
+                "old_value": "1.2.1",
+                "new_value": "1.2.0"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
