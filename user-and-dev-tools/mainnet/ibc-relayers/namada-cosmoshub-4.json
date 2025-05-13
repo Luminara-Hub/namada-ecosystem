@@ -3,7 +3,7 @@
     "chains": [
       {
         "chain_name": "NAMADA",
-        "logo_url": "https://namada.community/IMG/namada-logo.png", 
+        "logo_url": "https://namada.community/IMG/namada-logo.png",
         "chain_id": "namada.5f5de2dd1b88cba30586420",
         "client_id": "07-tendermint-3",
         "connection_id": "connection-2",
@@ -19,7 +19,7 @@
       },
       {
         "chain_name": "COSMOS HUB",
-        "logo_url": "https://namada.community/IMG/cosmos-hub-logo.svg", 
+        "logo_url": "https://namada.community/IMG/cosmos-hub-logo.svg",
         "chain_id": "cosmoshub-4",
         "client_id": "07-tendermint-1351",
         "connection_id": "connection-1089",
@@ -153,6 +153,16 @@
         "relayer_wallet_address": {
           "namada": "tnam1qphslayugn2xtj7cw7j57kekw9ul9z02vcv77cl6",
           "cosmoshub-4": "cosmos1m7t70kzzmnax04jwcdu38rjljtaj8cl4clz6zq"
+        }
+      },
+      {
+        "team_or_contributor_name": "OriginStake",
+        "discord_username": "mrspir",
+        "github_account": "mrspir",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qrz2z0urlywgh23crnm7jjhs0y9sy43rq5xnny82",
+          "cosmoshub-4": "cosmos1pzae9m08yvxdjglhq0e68gu2hm5azx36z63k48"
         }
       }
     ]
