@@ -3,7 +3,7 @@
     "chains": [
       {
         "chain_name": "NAMADA",
-        "logo_url": "https://namada.community/IMG/namada-logo.png", 
+        "logo_url": "https://namada.community/IMG/namada-logo.png",
         "chain_id": "namada.5f5de2dd1b88cba30586420",
         "client_id": "07-tendermint-10",
         "connection_id": "connection-7",
@@ -54,7 +54,7 @@
           "namada": "tnam1qp6cxlnl97xaxk9ey7tqtz0605gqgjz2hvcnfgt2",
           "nyx": "n1vu3w45sz03pxujzct8vc44jmhausuzy8d2r4ze"
         }
-        },
+      },
       {
         "team_or_contributor_name": "Citizen Web3",
         "discord_username": "serejandmyself_citizenweb3, alibabaedge",
@@ -64,7 +64,7 @@
           "namada": "tnam1qzxw2ls5vene79qlelves5ukaqykldm00gec8xt0",
           "nyx": "n1fl92605jdx79tu0hcynzy0fxmvrjaehv7j0ms5"
         }
-       },
+      },
       {
         "team_or_contributor_name": "Sproutstake",
         "discord_username": "oneplus",
@@ -73,6 +73,16 @@
         "relayer_wallet_address": {
           "namada": "tnam1qz4349xxw53a2hhnnejvth048xx0dgzgz5q2pckd",
           "nyx": "n1x7zpfu627g58xfrqxl2awva4j45lhnzl9prkfy"
+        }
+      },
+      {
+        "team_or_contributor_name": "OriginStake",
+        "discord_username": "mrspir",
+        "github_account": "mrspir",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qrz2z0urlywgh23crnm7jjhs0y9sy43rq5xnny82",
+          "nyx": "n1pzae9m08yvxdjglhq0e68gu2hm5azx36s7x52z"
         }
       }
     ]
