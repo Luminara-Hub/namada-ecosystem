@@ -3,7 +3,7 @@
     "chains": [
       {
         "chain_name": "NAMADA",
-        "logo_url": "https://namada.community/IMG/namada-logo.png", 
+        "logo_url": "https://namada.community/IMG/namada-logo.png",
         "chain_id": "namada.5f5de2dd1b88cba30586420",
         "client_id": "07-tendermint-8",
         "connection_id": "connection-6",
@@ -83,6 +83,16 @@
         "relayer_wallet_address": {
           "namada": "tnam1qphslayugn2xtj7cw7j57kekw9ul9z02vcv77cl6",
           "noble-1": "noble10k90fydng3yfeeaajvn27p7gdry0gcxc3jmvqr"
+        }
+      },
+      {
+        "team_or_contributor_name": "OriginStake",
+        "discord_username": "mrspir",
+        "github_account": "mrspir",
+        "creator_maintainer": "no",
+        "relayer_wallet_address": {
+          "namada": "tnam1qrz2z0urlywgh23crnm7jjhs0y9sy43rq5xnny82",
+          "noble-1": "noble1pzae9m08yvxdjglhq0e68gu2hm5azx362ey7df"
         }
       }
     ]
