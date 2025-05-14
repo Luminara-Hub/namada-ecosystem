@@ -9307,5 +9307,28 @@
                 "new_value": "1.20.2"
             }
         ]
+    },
+    {
+        "timestamp": "2025-05-14T05:25:11.886669+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.version",
+                "type": "modified",
+                "old_value": "1.2.1",
+                "new_value": "1.2.0"
+            }
+        ]
     }
 ]
