@@ -62027,5 +62027,91 @@
                 "new_value": "2014820"
             }
         ]
+    },
+    {
+        "timestamp": "2025-06-20T04:32:05.930168+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2014820",
+                "new_value": "2015107"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.interface.version",
+                "type": "modified",
+                "old_value": "1.26.0",
+                "new_value": "1.27.0"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Grand Valley.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "n/a"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "2469984",
+                "new_value": "0"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.shield-crypto.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
