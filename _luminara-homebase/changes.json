@@ -62599,5 +62599,190 @@
                 "new_value": "2018192"
             }
         ]
+    },
+    {
+        "timestamp": "2025-06-20T12:50:31.470107+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2018192",
+                "new_value": "2018790"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.Heliax.service.indexer.service",
+                "type": "removed",
+                "old_value": "indexer",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.Heliax.service.indexer.url",
+                "type": "removed",
+                "old_value": "https://namada-idx.emberstake.xyz",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Heliax.service.indexer.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.indexer.version",
+                "type": "removed",
+                "old_value": "3.2.0",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.indexer.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.Heliax.service.masp.service",
+                "type": "removed",
+                "old_value": "masp",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.Heliax.service.masp.url",
+                "type": "removed",
+                "old_value": "https://namada-masp-idx.emberstake.xyz",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Heliax.service.masp.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.masp.version",
+                "type": "removed",
+                "old_value": "1.3.0",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.masp.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.masp.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.Heliax.service.rpc.service",
+                "type": "removed",
+                "old_value": "rpc",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.Heliax.service.rpc.url",
+                "type": "removed",
+                "old_value": "https://namada-rpc.emberstake.xyz",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.Heliax.service.rpc.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.rpc.version",
+                "type": "removed",
+                "old_value": "0.37.15",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.rpc.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Heliax.service.rpc.namada_version",
+                "type": "removed",
+                "old_value": "101.1.1",
+                "new_value": null
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.rpc.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            }
+        ]
     }
 ]
