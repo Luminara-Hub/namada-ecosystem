@@ -65553,5 +65553,208 @@
                 "new_value": "1.28.2"
             }
         ]
+    },
+    {
+        "timestamp": "2025-06-21T09:25:17.524346+00:00Z",
+        "changes": [
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.Sproutstake.service.indexer.service",
+                "type": "removed",
+                "old_value": "indexer",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.Sproutstake.service.indexer.url",
+                "type": "removed",
+                "old_value": "https://namada-api.sproutstake.space",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.service.indexer.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.service.indexer.version",
+                "type": "removed",
+                "old_value": "3.2.0",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Sproutstake.service.indexer.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Sproutstake.service.indexer.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.Sproutstake.service.masp.service",
+                "type": "removed",
+                "old_value": "masp",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.Sproutstake.service.masp.url",
+                "type": "removed",
+                "old_value": "https://namada-masp-api.sproutstake.space",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.service.masp.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.service.masp.version",
+                "type": "removed",
+                "old_value": "1.3.0",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Sproutstake.service.masp.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Sproutstake.service.masp.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.Sproutstake.service.rpc.service",
+                "type": "removed",
+                "old_value": "rpc",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.Sproutstake.service.rpc.url",
+                "type": "removed",
+                "old_value": "https://namada-rpc.sproutstake.space",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.Sproutstake.service.rpc.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.service.rpc.version",
+                "type": "removed",
+                "old_value": "0.37.15",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Sproutstake.service.rpc.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Sproutstake.service.rpc.namada_version",
+                "type": "removed",
+                "old_value": "101.1.1",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Sproutstake.service.rpc.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Sproutstake.interface.version",
+                "type": "modified",
+                "old_value": "1.27.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Sproutstake",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Sproutstake.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
