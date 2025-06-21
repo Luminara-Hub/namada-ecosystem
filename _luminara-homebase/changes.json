@@ -64136,5 +64136,433 @@
                 "new_value": "2024309"
             }
         ]
+    },
+    {
+        "timestamp": "2025-06-21T03:57:40.219992+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.OriginStake.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "OriginStake",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.OriginStake.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "OriginStake",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.OriginStake.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "OriginStake",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.OriginStake.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "2481679",
+                "new_value": "0"
+            },
+            {
+                "team": "OriginStake",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.2.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.OriginStake.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.OriginStake.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "2481679",
+                "new_value": "0"
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.service.masp.version",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.MekongLabs.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.MekongLabs.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "2481681",
+                "new_value": "0"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.2.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.MekongLabs.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.MekongLabs.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "2481681",
+                "new_value": "0"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.service.masp.version",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Citizen Web3.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "2481676",
+                "new_value": "2482430"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Citizen Web3.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "2481676",
+                "new_value": "2482431"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "2481667",
+                "new_value": "2482400"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.TuDudes.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.TuDudes.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "2481667",
+                "new_value": "0"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.TuDudes.service.masp.version",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "2481668",
+                "new_value": "2482401"
+            },
+            {
+                "team": "TuDudes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.TuDudes.interface.version",
+                "type": "modified",
+                "old_value": "1.28.1",
+                "new_value": "1.28.2"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Hadesguard.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Hadesguard.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "2481672",
+                "new_value": "0"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.service.indexer.version",
+                "type": "modified",
+                "old_value": "3.2.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Hadesguard.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "2481672",
+                "new_value": "0"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.service.masp.version",
+                "type": "modified",
+                "old_value": "1.3.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Hadesguard.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Hadesguard",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Hadesguard.interface.version",
+                "type": "modified",
+                "old_value": "1.27.0",
+                "new_value": "1.28.2"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2024309",
+                "new_value": "2024961"
+            }
+        ]
     }
 ]
