@@ -65453,5 +65453,46 @@
                 "new_value": "2484348"
             }
         ]
+    },
+    {
+        "timestamp": "2025-06-21T07:40:26.496675+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.OriginStake.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.interface.version",
+                "type": "modified",
+                "old_value": "1.27.0",
+                "new_value": "1.28.2"
+            },
+            {
+                "team": "itrocket",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.itrocket.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "itrocket",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.itrocket.interface.version",
+                "type": "modified",
+                "old_value": "1.27.0",
+                "new_value": "1.28.2"
+            }
+        ]
     }
 ]
