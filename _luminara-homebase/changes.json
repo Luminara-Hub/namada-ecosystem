@@ -95758,5 +95758,55 @@
                 "new_value": "2813385"
             }
         ]
+    },
+    {
+        "timestamp": "2025-07-17T20:28:56.682435+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Citizen Web3.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "2813385",
+                "new_value": "2813766"
+            },
+            {
+                "team": "StakeUp",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.StakeUp.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "StakeUp",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.StakeUp.interface.version",
+                "type": "modified",
+                "old_value": "1.31.0",
+                "new_value": "1.31.1"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "2263210",
+                "new_value": "2263483"
+            }
+        ]
     }
 ]
