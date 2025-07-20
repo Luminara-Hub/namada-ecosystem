@@ -1,0 +1,1 @@
+INSERT INTO interface_changes (timestamp, team, service, field, full_path, change_type, old_value, new_value) VALUES ('2025-07-20T18:34:26.582524+00:00Z', null, null, 'housefire_reference_latest_block_height', 'housefire_reference_latest_block_height', 'modified', '"2293558"', '"2294043"');
