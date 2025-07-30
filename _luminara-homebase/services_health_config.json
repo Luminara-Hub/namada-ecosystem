@@ -1,7 +1,7 @@
 {
   "namada": {
     "interface": {
-      "required_version": "1.31.2"
+      "required_version": "1.31.3"
     },
     "services": {
       "rpc": {
@@ -29,7 +29,7 @@
   },
   "housefire": {
     "interface": {
-      "required_version": "1.31.2"
+      "required_version": "1.31.3"
     },
     "services": {
       "rpc": {
@@ -56,4 +56,3 @@
     }
   }
 }
-
