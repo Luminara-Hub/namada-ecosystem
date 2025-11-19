@@ -12010,5 +12010,19 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-19T14:43:29.866417+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
