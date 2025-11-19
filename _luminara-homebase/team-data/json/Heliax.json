@@ -46117,5 +46117,19 @@
                 "new_value": "4355977"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-19T22:18:47.231054+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "interface",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.interface.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]
