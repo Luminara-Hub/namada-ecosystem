@@ -33543,5 +33543,19 @@
                 "new_value": true
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-20T02:52:35.079575+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.TuDudes.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]

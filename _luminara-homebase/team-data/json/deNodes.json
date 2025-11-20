@@ -52372,5 +52372,19 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-20T02:52:35.079575+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.deNodes.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
