@@ -21800,5 +21800,37 @@
                 "new_value": "3493350"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-20T02:56:00.014969+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "3493350",
+                "new_value": "3493990"
+            },
+            {
+                "team": null,
+                "service": "rpc",
+                "field": "rpc",
+                "full_path": "required_versions.rpc",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "0.37.16"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "rpc",
+                "full_path": "housefire_required_versions.rpc",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "0.37.16"
+            }
+        ]
     }
 ]
