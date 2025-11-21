@@ -53779,5 +53779,73 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-21T16:44:33.397912+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.deNodes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4378074",
+                "new_value": "4378254"
+            },
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.deNodes.service.rpc.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.deNodes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "0",
+                "new_value": "4378426"
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.deNodes.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "101.1.4"
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.service.rpc.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "0.37.15"
+            }
+        ]
     }
 ]
