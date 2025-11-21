@@ -23175,5 +23175,28 @@
                 "new_value": "1.33.0"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-21T13:25:49.935655+00:00Z",
+        "changes": [
+            {
+                "team": null,
+                "service": "interface",
+                "field": "interface",
+                "full_path": "required_versions.interface",
+                "type": "modified",
+                "old_value": "1.32.1-maint.1",
+                "new_value": "1.33.0"
+            },
+            {
+                "team": null,
+                "service": null,
+                "field": "housefire_reference_latest_block_height",
+                "full_path": "housefire_reference_latest_block_height",
+                "type": "modified",
+                "old_value": "3508273",
+                "new_value": "3508554"
+            }
+        ]
     }
 ]
