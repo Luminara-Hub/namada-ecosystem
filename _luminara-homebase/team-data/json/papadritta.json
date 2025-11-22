@@ -23106,5 +23106,19 @@
                 "new_value": "4384630"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-22T06:27:03.422740+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1-maint.1",
+                "new_value": "6.6.1"
+            }
+        ]
     }
 ]
