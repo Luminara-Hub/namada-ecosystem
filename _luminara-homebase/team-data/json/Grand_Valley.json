@@ -44900,5 +44900,19 @@
                 "new_value": "101.1.4"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-24T19:36:32.486917+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Grand Valley.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "101.1.4"
+            }
+        ]
     }
 ]
