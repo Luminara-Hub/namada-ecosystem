@@ -55732,5 +55732,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-24T12:41:32.066415+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1-maint.1",
+                "new_value": "6.6.1"
+            },
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
