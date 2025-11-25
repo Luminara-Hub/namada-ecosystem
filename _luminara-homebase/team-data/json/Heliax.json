@@ -50592,5 +50592,19 @@
                 "new_value": "4430876"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-25T23:39:01.159760+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
