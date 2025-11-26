@@ -35226,5 +35226,80 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-26T09:23:08.800181+00:00Z",
+        "changes": [
+            {
+                "team": "StakeUp",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.StakeUp.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "StakeUp",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.StakeUp.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "6.6.1"
+            },
+            {
+                "team": "StakeUp",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.StakeUp.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.stakeup.tech",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4436698",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "StakeUp",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.StakeUp.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://masp-indexer.namada.stakeup.tech",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4436484",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.StakeUp.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://rpc.namada.stakeup.tech",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": false,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "4436698",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
