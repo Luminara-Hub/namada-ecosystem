@@ -46757,5 +46757,19 @@
                 "new_value": "4457839"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-28T03:46:17.102209+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
