@@ -59342,5 +59342,80 @@
                 "new_value": null
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-29T22:18:11.330461+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.deNodes.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "deNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.deNodes.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "6.6.1"
+            },
+            {
+                "team": "deNodes",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.deNodes.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://namada-indexer.denodes.xyz",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4480151",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.deNodes.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp-indexer.denodes.xyz",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4479545",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "deNodes",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.deNodes.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.denodes.xyz",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": false,
+                    "namada_version": "101.1.4",
+                    "latest_block_height": "4480151",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
