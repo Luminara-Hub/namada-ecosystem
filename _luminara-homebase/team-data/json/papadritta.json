@@ -27956,5 +27956,91 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-30T12:31:28.079843+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "papadritta",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.papadritta.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "4487190",
+                "new_value": "4487754"
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4483278",
+                "new_value": "4487677"
+            },
+            {
+                "team": "papadritta",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "papadritta",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.papadritta.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "papadritta",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.papadritta.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4487191",
+                "new_value": "0"
+            },
+            {
+                "team": "papadritta",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "n/a"
+            },
+            {
+                "team": "papadritta",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.papadritta.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            }
+        ]
     }
 ]
