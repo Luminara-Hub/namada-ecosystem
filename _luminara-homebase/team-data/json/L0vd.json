@@ -19244,5 +19244,46 @@
                 "new_value": "4491736"
             }
         ]
+    },
+    {
+        "timestamp": "2025-11-30T21:17:25.063671+00:00Z",
+        "changes": [
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.L0vd.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.L0vd.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "n/a"
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.L0vd.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "L0vd",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.L0vd.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
