@@ -37505,5 +37505,19 @@
                 "new_value": "4499326"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-01T12:42:51.747813+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
