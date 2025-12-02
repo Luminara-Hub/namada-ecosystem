@@ -39025,5 +39025,55 @@
                 "new_value": "201.0.7"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-02T18:27:33.859553+00:00Z",
+        "changes": [
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.StakeUp.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.StakeUp.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "n/a"
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "4514500",
+                "new_value": "0"
+            }
+        ]
     }
 ]
