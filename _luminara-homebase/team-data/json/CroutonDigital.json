@@ -38593,5 +38593,37 @@
                 "new_value": "4514403"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-02T19:19:08.398780+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.CroutonDigital.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.CroutonDigital.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.CroutonDigital.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
