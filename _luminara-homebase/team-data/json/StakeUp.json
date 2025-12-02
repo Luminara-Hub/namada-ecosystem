@@ -39011,5 +39011,19 @@
                 "new_value": "4514403"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-02T18:32:54.530810+00:00Z",
+        "changes": [
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.StakeUp.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.1",
+                "new_value": "201.0.7"
+            }
+        ]
     }
 ]
