@@ -42385,5 +42385,28 @@
                 "new_value": "4522083"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-03T10:47:56.707681+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4522083",
+                "new_value": "4522264"
+            },
+            {
+                "team": "TuDudes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
