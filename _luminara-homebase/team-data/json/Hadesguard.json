@@ -39312,5 +39312,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-03T06:54:03.429643+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Hadesguard.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "101.1.4",
+                "new_value": "201.0.7"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
