@@ -57738,5 +57738,28 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-04T21:39:20.158128+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4539865",
+                "new_value": "4540244"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
