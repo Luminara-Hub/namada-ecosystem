@@ -336,5 +336,28 @@
                 "new_value": "4549782"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-05T16:49:04.912858+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4549782",
+                "new_value": "4550036"
+            }
+        ]
     }
 ]
