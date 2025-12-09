@@ -1,1 +1,0 @@
-INSERT INTO interface_changes (timestamp, team, service, field, full_path, change_type, old_value, new_value) VALUES ('2025-06-09T09:42:08.256692+00:00Z', null, null, 'housefire_required_versions', 'housefire_required_versions', 'added', 'null', '{"interface": "1.24.0", "indexer": "3.0.2", "rpc": "0.37.15", "masp": "1.3.0"}');

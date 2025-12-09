@@ -1,3 +1,0 @@
-INSERT INTO interface_changes (timestamp, team, service, field, full_path, change_type, old_value, new_value) VALUES ('2025-06-13T09:17:37.320811+00:00Z', null, null, 'indexer', 'housefire_required_versions.indexer', 'modified', '"3.0.2"', '"3.1.0"');
-INSERT INTO interface_changes (timestamp, team, service, field, full_path, change_type, old_value, new_value) VALUES ('2025-06-16T16:20:34.388783+00:00Z', null, null, 'indexer', 'housefire_required_versions.indexer', 'modified', '"3.1.0"', '"3.2.0"');
-INSERT INTO interface_changes (timestamp, team, service, field, full_path, change_type, old_value, new_value) VALUES ('2025-07-16T17:17:44.510529+00:00Z', null, null, 'indexer', 'housefire_required_versions.indexer', 'modified', '"3.2.0"', '"3.3.4"');

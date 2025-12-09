@@ -1,1 +1,0 @@
-INSERT INTO interface_changes (timestamp, team, service, field, full_path, change_type, old_value, new_value) VALUES ('2025-05-27T19:35:48.274091+00:00Z', null, 'masp', 'masp', 'required_versions.masp', 'modified', '"1.2.1"', '"1.3.0"');
