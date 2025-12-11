@@ -4868,16 +4868,55 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-11T07:24:04.859652+00:00Z",
         "changes": [
             {
                 "team": "shield-crypto",
+=======
+        "timestamp": "2025-12-11T06:57:21.149745+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "shield-crypto",
+>>>>>>> Stashed changes
                 "service": "masp",
                 "field": "status",
                 "full_path": "namada.operator.shield-crypto.service.masp.status",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "up",
                 "new_value": "down"
+=======
+                "old_value": "down",
+                "new_value": "up"
+>>>>>>> Stashed changes
             },
             {
                 "team": "shield-crypto",
@@ -4885,8 +4924,13 @@
                 "field": "version",
                 "full_path": "namada.operator.shield-crypto.service.masp.version",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "1.4.7",
                 "new_value": "n/a"
+=======
+                "old_value": "n/a",
+                "new_value": "1.4.7"
+>>>>>>> Stashed changes
             },
             {
                 "team": "shield-crypto",
@@ -4894,8 +4938,13 @@
                 "field": "is_up_to_date",
                 "full_path": "namada.operator.shield-crypto.service.masp.is_up_to_date",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": true,
                 "new_value": false
+=======
+                "old_value": false,
+                "new_value": true
+>>>>>>> Stashed changes
             }
         ]
     }
