@@ -30,5 +30,37 @@
                 "new_value": "down"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-11T15:25:07.018439+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.shield-crypto.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.shield-crypto.service.indexer.version",
+                "type": "modified",
+                "old_value": "4.1.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.shield-crypto.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
