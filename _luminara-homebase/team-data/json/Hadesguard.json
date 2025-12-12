@@ -772,5 +772,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-12T06:55:42.204454+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Hadesguard.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4630537",
+                "new_value": "4631073"
+            },
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
