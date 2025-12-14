@@ -2998,5 +2998,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-14T14:40:00.820759+00:00Z",
+        "changes": [
+            {
+                "team": "itrocket",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.itrocket.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4659200",
+                "new_value": "4659656"
+            },
+            {
+                "team": "itrocket",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.itrocket.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
