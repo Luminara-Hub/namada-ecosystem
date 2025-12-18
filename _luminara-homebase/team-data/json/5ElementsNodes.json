@@ -6447,5 +6447,80 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-18T11:19:28.780436+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.5ElementsNodes.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.32.1-maint.1"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://index2-namada.5elementsnodes.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4704879",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://masp2-namada.5elementsnodes.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4705686",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://rpc-namada.5elementsnodes.com",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": true,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "4705781",
+                    "sync_state": "sync_nok"
+                }
+            }
+        ]
     }
 ]
