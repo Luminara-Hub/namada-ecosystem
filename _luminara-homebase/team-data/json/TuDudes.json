@@ -10150,7 +10150,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-22T07:43:45.697079+00:00Z",
+=======
+        "timestamp": "2025-12-22T07:27:11.136246+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "TuDudes",
@@ -10158,8 +10162,13 @@
                 "field": "sync_state",
                 "full_path": "namada.operator.TuDudes.service.masp.sync_state",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+=======
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }

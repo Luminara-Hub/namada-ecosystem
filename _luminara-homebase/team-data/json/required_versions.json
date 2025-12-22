@@ -1078,7 +1078,11 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-22T07:43:45.697079+00:00Z",
+=======
+        "timestamp": "2025-12-22T07:27:11.136246+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": null,
@@ -1086,8 +1090,13 @@
                 "field": "housefire_reference_latest_block_height",
                 "full_path": "housefire_reference_latest_block_height",
                 "type": "modified",
+<<<<<<< Updated upstream
                 "old_value": "3818659",
                 "new_value": "3818823"
+=======
+                "old_value": "3818427",
+                "new_value": "3818659"
+>>>>>>> Stashed changes
             }
         ]
     }
