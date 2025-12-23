@@ -779,16 +779,37 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-23T07:23:46.256510+00:00Z",
+=======
+        "timestamp": "2025-12-23T06:57:23.004209+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
+            {
+                "team": "EmberStake",
+                "service": "masp",
+<<<<<<< Updated upstream
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+=======
+                "field": "latest_block_height",
+                "full_path": "namada.operator.EmberStake.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4765514",
+                "new_value": "4766050"
+            },
             {
                 "team": "EmberStake",
                 "service": "masp",
                 "field": "sync_state",
                 "full_path": "namada.operator.EmberStake.service.masp.sync_state",
                 "type": "modified",
-                "old_value": "sync_lag",
-                "new_value": "sync_nok"
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+>>>>>>> Stashed changes
             }
         ]
     }
