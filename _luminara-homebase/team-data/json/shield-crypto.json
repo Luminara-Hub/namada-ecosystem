@@ -3574,5 +3574,19 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-26T15:42:57.298349+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
