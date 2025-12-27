@@ -3189,11 +3189,16 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2025-12-27T03:07:00.038453+00:00Z",
+=======
+        "timestamp": "2025-12-27T04:06:22.310868+00:00Z",
+>>>>>>> Stashed changes
         "changes": [
             {
                 "team": "Nodes.Guru",
                 "service": "masp",
+<<<<<<< Updated upstream
                 "field": "latest_block_height",
                 "full_path": "namada.operator.Nodes.Guru.service.masp.latest_block_height",
                 "type": "modified",
@@ -3208,6 +3213,13 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+=======
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
