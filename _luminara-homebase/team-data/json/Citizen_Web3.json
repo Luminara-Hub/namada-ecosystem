@@ -619,5 +619,19 @@
                 "new_value": "4821876"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-27T20:22:27.570321+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
