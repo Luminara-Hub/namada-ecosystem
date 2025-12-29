@@ -5169,5 +5169,19 @@
                 "new_value": "4842239"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-29T10:49:27.500828+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
