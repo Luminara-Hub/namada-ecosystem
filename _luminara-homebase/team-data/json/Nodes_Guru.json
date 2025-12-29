@@ -5163,5 +5163,28 @@
                 "new_value": "4838763"
             }
         ]
+    },
+    {
+        "timestamp": "2025-12-29T04:51:40.971614+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
