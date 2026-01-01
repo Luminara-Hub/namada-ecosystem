@@ -4890,5 +4890,55 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-01T20:43:19.567137+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Grand Valley.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "0",
+                "new_value": "4884494"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.service.indexer.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Grand Valley.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Grand Valley.service.indexer.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            }
+        ]
     }
 ]
