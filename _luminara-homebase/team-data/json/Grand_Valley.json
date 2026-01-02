@@ -5310,5 +5310,80 @@
                 "new_value": "4896231"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-02T20:22:46.229491+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Grand Valley.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Grand Valley",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.Grand Valley.networks.0.interface.18.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://indexer-mainnet-namada.grandvalleys.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4896246",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.Grand Valley.networks.0.interface.18.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://masp-indexer-mainnet-namada.grandvalleys.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4896231",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.Grand Valley.networks.0.interface.18.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://lightnode-rpc-mainnet-namada.grandvalleys.com",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": true,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "4896246",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
