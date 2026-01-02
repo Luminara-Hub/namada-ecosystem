@@ -4911,5 +4911,19 @@
                 "new_value": "4895085"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-02T18:30:17.565218+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
