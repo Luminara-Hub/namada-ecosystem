@@ -9820,5 +9820,19 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-04T20:23:07.292516+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
