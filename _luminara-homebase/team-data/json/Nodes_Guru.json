@@ -5976,5 +5976,19 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-05T08:33:32.255482+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
