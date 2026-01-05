@@ -6016,5 +6016,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-05T13:38:12.247682+00:00Z",
+        "changes": [
+            {
+                "team": "StakeUp",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "StakeUp",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.StakeUp.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "4928758",
+                "new_value": "4930069"
+            }
+        ]
     }
 ]
