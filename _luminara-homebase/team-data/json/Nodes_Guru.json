@@ -6781,5 +6781,80 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-07T19:20:01.781509+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Nodes.Guru.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Nodes.Guru.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.Nodes.Guru.networks.0.interface.13.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://namada-indexer.nodes.guru:443",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4957307",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.Nodes.Guru.networks.0.interface.13.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp.nodes.guru:443",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4952037",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.Nodes.Guru.networks.0.interface.13.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://namada-rpc.nodes.guru:443",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "namada_version": "n/a",
+                    "latest_block_height": "0",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
