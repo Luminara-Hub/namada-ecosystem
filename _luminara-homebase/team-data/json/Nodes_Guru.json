@@ -6672,5 +6672,55 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-07T18:33:43.921675+00:00Z",
+        "changes": [
+            {
+                "team": "Nodes.Guru",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.Nodes.Guru.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Nodes.Guru.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.16",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Nodes.Guru.service.rpc.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Nodes.Guru.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "201.0.7",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Nodes.Guru",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Nodes.Guru.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
