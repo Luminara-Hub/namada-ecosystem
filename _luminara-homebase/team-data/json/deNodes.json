@@ -6781,5 +6781,19 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-08T01:45:46.264448+00:00Z",
+        "changes": [
+            {
+                "team": "deNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.deNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
