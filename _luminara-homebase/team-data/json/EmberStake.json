@@ -7078,5 +7078,19 @@
                 "new_value": "4971014"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-08T22:21:26.222599+00:00Z",
+        "changes": [
+            {
+                "team": "EmberStake",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
