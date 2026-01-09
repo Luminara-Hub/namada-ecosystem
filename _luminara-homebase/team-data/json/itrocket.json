@@ -7255,5 +7255,19 @@
                 "new_value": "4982763"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-09T21:21:02.502362+00:00Z",
+        "changes": [
+            {
+                "team": "itrocket",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.itrocket.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
