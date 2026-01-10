@@ -8835,5 +8835,199 @@
                 "new_value": null
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-10T17:14:41.004583+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.Grand Valley.service.indexer.service",
+                "type": "removed",
+                "old_value": "indexer",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.Grand Valley.service.indexer.url",
+                "type": "removed",
+                "old_value": "https://indexer-mainnet-namada.grandvalleys.com",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Grand Valley.service.indexer.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.service.indexer.version",
+                "type": "removed",
+                "old_value": "4.1.0",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Grand Valley.service.indexer.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.indexer.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.Grand Valley.service.masp.service",
+                "type": "removed",
+                "old_value": "masp",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.Grand Valley.service.masp.url",
+                "type": "removed",
+                "old_value": "https://masp-indexer-mainnet-namada.grandvalleys.com",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Grand Valley.service.masp.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.service.masp.version",
+                "type": "removed",
+                "old_value": "1.4.7",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Grand Valley.service.masp.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.masp.sync_state",
+                "type": "removed",
+                "old_value": "sync_nok",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.Grand Valley.service.rpc.service",
+                "type": "removed",
+                "old_value": "rpc",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.Grand Valley.service.rpc.url",
+                "type": "removed",
+                "old_value": "https://lightnode-rpc-mainnet-namada.grandvalleys.com",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.Grand Valley.service.rpc.status",
+                "type": "removed",
+                "old_value": "up",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Grand Valley.service.rpc.version",
+                "type": "removed",
+                "old_value": "0.37.16",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Grand Valley.service.rpc.is_up_to_date",
+                "type": "removed",
+                "old_value": true,
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Grand Valley.service.rpc.namada_version",
+                "type": "removed",
+                "old_value": "201.0.7",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.rpc.sync_state",
+                "type": "removed",
+                "old_value": "sync_ok",
+                "new_value": null
+            },
+            {
+                "team": "Grand Valley",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Grand Valley.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            }
+        ]
     }
 ]
