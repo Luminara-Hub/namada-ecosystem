@@ -7226,5 +7226,19 @@
                 "new_value": "4988915"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-10T09:20:22.678857+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
