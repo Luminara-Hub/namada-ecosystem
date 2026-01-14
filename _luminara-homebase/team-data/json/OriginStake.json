@@ -8818,5 +8818,80 @@
                 "new_value": null
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-14T15:26:29.014068+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.OriginStake.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "OriginStake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.OriginStake.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.31.4"
+            },
+            {
+                "team": "OriginStake",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.OriginStake.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.tududes.com:443",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5041863",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.OriginStake.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://masp.namada.tududes.com:443",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5041611",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "OriginStake",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.OriginStake.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.itrocket.net:443",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": true,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "5041863",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
