@@ -8492,5 +8492,80 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-14T11:43:23.560295+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Citizen Web3.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Citizen Web3.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.Citizen Web3.networks.0.interface.9.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.citizenweb3.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4621962",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Citizen Web3",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.Citizen Web3.networks.0.interface.9.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://masp-indexer.namada.citizenweb3.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5038996",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Citizen Web3",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.Citizen Web3.networks.0.interface.9.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://rpc.namada-archive.citizenweb3.com",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": false,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "5039552",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
