@@ -13332,5 +13332,19 @@
                 "new_value": "5051101"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-15T10:25:33.963598+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
