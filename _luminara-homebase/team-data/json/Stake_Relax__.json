@@ -9580,5 +9580,37 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-16T12:37:39.690172+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.masp.version",
+                "type": "modified",
+                "old_value": "1.4.7",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.masp.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            }
+        ]
     }
 ]
