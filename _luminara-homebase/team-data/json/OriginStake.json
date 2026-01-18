@@ -10608,5 +10608,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-17T23:39:01.056063+00:00Z",
+        "changes": [
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.OriginStake.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "OriginStake",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.OriginStake.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "5082518",
+                "new_value": "5082622"
+            }
+        ]
     }
 ]
