@@ -15465,5 +15465,62 @@
                 "new_value": null
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-18T21:39:41.008922+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.shield-crypto.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://namada-indexer.shield-crypto.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5094057",
+                    "sync_state": "sync_ok"
+                }
+            },
+            {
+                "team": "shield-crypto",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.shield-crypto.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://namada-public-masp.shield-crypto.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5093993",
+                    "sync_state": "sync_lag"
+                }
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.shield-crypto.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-public-rpc.shield-crypto.com",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": true,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "5094057",
+                    "sync_state": "sync_ok"
+                }
+            }
+        ]
     }
 ]
