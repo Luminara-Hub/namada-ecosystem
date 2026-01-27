@@ -13740,5 +13740,199 @@
                 }
             }
         ]
+    },
+    {
+        "timestamp": "2026-01-27T15:32:57.425924+00:00Z",
+        "changes": [
+            {
+                "team": "EmberStake",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.EmberStake.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "service",
+                "full_path": "namada.operator.EmberStake.service.indexer.service",
+                "type": "added",
+                "old_value": null,
+                "new_value": "indexer"
+            },
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "url",
+                "full_path": "namada.operator.EmberStake.service.indexer.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-idx.emberstake.xyz"
+            },
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.EmberStake.service.indexer.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "up"
+            },
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.EmberStake.service.indexer.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.EmberStake.service.indexer.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": true
+            },
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.indexer.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "EmberStake",
+                "service": "masp",
+                "field": "service",
+                "full_path": "namada.operator.EmberStake.service.masp.service",
+                "type": "added",
+                "old_value": null,
+                "new_value": "masp"
+            },
+            {
+                "team": "EmberStake",
+                "service": "masp",
+                "field": "url",
+                "full_path": "namada.operator.EmberStake.service.masp.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-masp-idx.emberstake.xyz"
+            },
+            {
+                "team": "EmberStake",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.EmberStake.service.masp.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "up"
+            },
+            {
+                "team": "EmberStake",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.EmberStake.service.masp.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "1.4.7"
+            },
+            {
+                "team": "EmberStake",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.EmberStake.service.masp.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": true
+            },
+            {
+                "team": "EmberStake",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.masp.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "service",
+                "full_path": "namada.operator.EmberStake.service.rpc.service",
+                "type": "added",
+                "old_value": null,
+                "new_value": "rpc"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.EmberStake.service.rpc.url",
+                "type": "added",
+                "old_value": null,
+                "new_value": "https://namada-rpc.emberstake.xyz"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.EmberStake.service.rpc.status",
+                "type": "added",
+                "old_value": null,
+                "new_value": "up"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.EmberStake.service.rpc.version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "0.37.16"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.EmberStake.service.rpc.is_up_to_date",
+                "type": "added",
+                "old_value": null,
+                "new_value": true
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.EmberStake.service.rpc.namada_version",
+                "type": "added",
+                "old_value": null,
+                "new_value": "201.0.7"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.rpc.sync_state",
+                "type": "added",
+                "old_value": null,
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "EmberStake",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.EmberStake.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "6.6.1"
+            }
+        ]
     }
 ]
