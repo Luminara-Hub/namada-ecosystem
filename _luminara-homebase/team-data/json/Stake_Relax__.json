@@ -9884,5 +9884,28 @@
                 "new_value": "up"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-02T16:53:34.213078+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
