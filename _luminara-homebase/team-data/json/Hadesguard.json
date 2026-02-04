@@ -15058,5 +15058,62 @@
                 "new_value": "5303332"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-04T20:41:42.089411+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.Hadesguard.networks.0.interface.3.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.namada.tududes.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5303332",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Hadesguard",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.Hadesguard.networks.0.interface.3.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://masp.namada.tududes.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5303313",
+                    "sync_state": "sync_lag"
+                },
+                "new_value": null
+            },
+            {
+                "team": "Hadesguard",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.Hadesguard.networks.0.interface.3.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://namada-rpc.hadesguard.tech",
+                    "status": "up",
+                    "version": "0.37.15",
+                    "is_up_to_date": false,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "5303332",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
