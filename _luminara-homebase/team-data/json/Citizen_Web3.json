@@ -14904,5 +14904,28 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-04T17:23:53.677276+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.Citizen Web3.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.Citizen Web3.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
