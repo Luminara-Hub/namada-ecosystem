@@ -15295,5 +15295,46 @@
                 "new_value": "sync_nok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-04T19:21:56.276725+00:00Z",
+        "changes": [
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.MekongLabs.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.service.indexer.version",
+                "type": "modified",
+                "old_value": "4.1.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.MekongLabs.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "MekongLabs",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.MekongLabs.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]

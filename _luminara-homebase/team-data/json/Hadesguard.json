@@ -14957,5 +14957,19 @@
                 "new_value": "5302350"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-04T19:21:56.276725+00:00Z",
+        "changes": [
+            {
+                "team": "Hadesguard",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Hadesguard.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
