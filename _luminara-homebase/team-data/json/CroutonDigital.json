@@ -39292,5 +39292,80 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-06T17:11:42.550821+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.CroutonDigital.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.CroutonDigital.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.32.1-maint.1"
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "indexer",
+                "field": "0",
+                "full_path": "namada.operator.CroutonDigital.service.indexer.0",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "indexer",
+                    "url": "https://namada-mainnet-indexer.crouton.digital",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "4514500",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "masp",
+                "field": "1",
+                "full_path": "namada.operator.CroutonDigital.service.masp.1",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "masp",
+                    "url": "https://namada-mainnet-masp-indexer.crouton.digital",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "latest_block_height": "0",
+                    "sync_state": "sync_nok"
+                }
+            },
+            {
+                "team": "CroutonDigital",
+                "service": "rpc",
+                "field": "2",
+                "full_path": "namada.operator.CroutonDigital.service.rpc.2",
+                "type": "added",
+                "old_value": null,
+                "new_value": {
+                    "service": "rpc",
+                    "url": "https://namada-mainnet-rpc.crouton.digital",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": true,
+                    "namada_version": "101.1.1",
+                    "latest_block_height": "4514500",
+                    "sync_state": "sync_nok"
+                }
+            }
+        ]
     }
 ]
