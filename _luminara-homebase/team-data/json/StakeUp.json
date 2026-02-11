@@ -15585,5 +15585,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-11T22:38:18.510541+00:00Z",
+        "changes": [
+            {
+                "team": "StakeUp",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
