@@ -16256,5 +16256,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-15T15:47:01.194656+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Heliax.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "5437991",
+                "new_value": "5438285"
+            },
+            {
+                "team": "Heliax",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
