@@ -16754,5 +16754,28 @@
                 "new_value": "5439679"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-15T19:22:10.843905+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.papadritta.service.masp.latest_block_height",
+                "type": "modified",
+                "old_value": "5439679",
+                "new_value": "5439792"
+            },
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
