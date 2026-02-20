@@ -16727,5 +16727,46 @@
                 "new_value": "5503852"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-20T23:25:10.842596+00:00Z",
+        "changes": [
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.StakeUp.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "5503852",
+                "new_value": "5504401"
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "StakeUp",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.StakeUp.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "5503852",
+                "new_value": "5504401"
+            },
+            {
+                "team": "StakeUp",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
