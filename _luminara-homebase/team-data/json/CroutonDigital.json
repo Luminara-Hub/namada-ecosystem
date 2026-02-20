@@ -39575,5 +39575,19 @@
                 "new_value": "6.6.1"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-20T09:36:39.918277+00:00Z",
+        "changes": [
+            {
+                "team": "CroutonDigital",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.CroutonDigital.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1-maint.1",
+                "new_value": "6.6.1"
+            }
+        ]
     }
 ]
