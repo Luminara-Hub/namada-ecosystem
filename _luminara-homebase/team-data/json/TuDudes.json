@@ -18916,5 +18916,46 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-23T20:49:13.242461+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "5539321",
+                "new_value": "5540210"
+            },
+            {
+                "team": "TuDudes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "5539320",
+                "new_value": "5540210"
+            }
+        ]
     }
 ]
