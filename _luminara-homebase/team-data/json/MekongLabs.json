@@ -16073,5 +16073,80 @@
                 "new_value": "201.0.7"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-23T04:35:22.433488+00:00Z",
+        "changes": [
+            {
+                "team": "MekongLabs",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.MekongLabs.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "MekongLabs",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.MekongLabs.interface.version",
+                "type": "modified",
+                "old_value": "1.32.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "MekongLabs",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.MekongLabs.networks.0.interface.22.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://namada-idx.emberstake.xyz",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5530345",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.MekongLabs.networks.0.interface.22.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://namada-masp-idx.emberstake.xyz",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "latest_block_height": "0",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "MekongLabs",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.MekongLabs.networks.0.interface.22.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://namada-rpc.emberstake.xyz",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": true,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "5530346",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
