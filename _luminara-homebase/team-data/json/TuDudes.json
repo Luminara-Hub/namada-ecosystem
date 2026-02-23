@@ -18644,5 +18644,19 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-23T06:04:42.319812+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
