@@ -19164,5 +19164,28 @@
                 "new_value": "5550479"
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-24T18:56:52.535134+00:00Z",
+        "changes": [
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.TuDudes.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "TuDudes",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.TuDudes.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "5550479",
+                "new_value": "5551147"
+            }
+        ]
     }
 ]
