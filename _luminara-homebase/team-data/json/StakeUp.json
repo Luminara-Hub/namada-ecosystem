@@ -17585,5 +17585,73 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-25T22:33:41.108741+00:00Z",
+        "changes": [
+            {
+                "team": "StakeUp",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.StakeUp.interface.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "StakeUp",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.StakeUp.interface.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "6.6.1"
+            },
+            {
+                "team": "StakeUp",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "StakeUp",
+                "service": "masp",
+                "field": "status",
+                "full_path": "namada.operator.StakeUp.service.masp.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "StakeUp",
+                "service": "masp",
+                "field": "version",
+                "full_path": "namada.operator.StakeUp.service.masp.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "1.4.7"
+            },
+            {
+                "team": "StakeUp",
+                "service": "masp",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.StakeUp.service.masp.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            },
+            {
+                "team": "StakeUp",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.StakeUp.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
