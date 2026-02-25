@@ -18201,5 +18201,28 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2026-02-25T08:42:54.086365+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.5ElementsNodes.service.indexer.version",
+                "type": "modified",
+                "old_value": "4.1.0",
+                "new_value": "4.1.3"
+            }
+        ]
     }
 ]
