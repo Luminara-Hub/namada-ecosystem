@@ -20599,6 +20599,7 @@
         ]
     },
     {
+<<<<<<< Updated upstream
         "timestamp": "2026-03-01T19:22:22.490504+00:00Z",
         "changes": [
             {
@@ -20618,6 +20619,27 @@
                 "type": "modified",
                 "old_value": "sync_nok",
                 "new_value": "sync_lag"
+=======
+        "timestamp": "2026-03-01T18:57:29.051082+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Heliax.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "5612675",
+                "new_value": "5601751"
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+>>>>>>> Stashed changes
             }
         ]
     }
