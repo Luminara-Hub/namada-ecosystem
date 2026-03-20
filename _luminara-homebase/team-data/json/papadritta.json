@@ -519,5 +519,80 @@
                 "new_value": "1.4.7"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-20T05:33:47.730403+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "status",
+                "full_path": "namada.operator.papadritta.interface.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "papadritta",
+                "service": "interface",
+                "field": "version",
+                "full_path": "namada.operator.papadritta.interface.version",
+                "type": "modified",
+                "old_value": "6.6.1",
+                "new_value": "n/a"
+            },
+            {
+                "team": "papadritta",
+                "service": null,
+                "field": "0",
+                "full_path": "namada.operator.papadritta.networks.0.interface.25.settings.0",
+                "type": "removed",
+                "old_value": {
+                    "service": "indexer",
+                    "url": "https://indexer.papadritta.com",
+                    "status": "up",
+                    "version": "4.1.0",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5841160",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "papadritta",
+                "service": null,
+                "field": "1",
+                "full_path": "namada.operator.papadritta.networks.0.interface.25.settings.1",
+                "type": "removed",
+                "old_value": {
+                    "service": "masp",
+                    "url": "https://masp-indexer.papadritta.com",
+                    "status": "up",
+                    "version": "1.4.7",
+                    "is_up_to_date": true,
+                    "latest_block_height": "5837655",
+                    "sync_state": "sync_nok"
+                },
+                "new_value": null
+            },
+            {
+                "team": "papadritta",
+                "service": null,
+                "field": "2",
+                "full_path": "namada.operator.papadritta.networks.0.interface.25.settings.2",
+                "type": "removed",
+                "old_value": {
+                    "service": "rpc",
+                    "url": "https://rpc.papadritta.com",
+                    "status": "up",
+                    "version": "0.37.16",
+                    "is_up_to_date": true,
+                    "namada_version": "201.0.7",
+                    "latest_block_height": "5841160",
+                    "sync_state": "sync_ok"
+                },
+                "new_value": null
+            }
+        ]
     }
 ]
