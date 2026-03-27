@@ -9123,5 +9123,28 @@
                 "new_value": "5930228"
             }
         ]
+    },
+    {
+        "timestamp": "2026-03-27T18:56:09.738261+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
