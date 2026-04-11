@@ -12850,5 +12850,55 @@
                 "new_value": "6120599"
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-11T23:02:14.898143+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.indexer.version",
+                "type": "modified",
+                "old_value": "4.1.0",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": true,
+                "new_value": false
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Heliax.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "6125787",
+                "new_value": "0"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Heliax.service.indexer.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            }
+        ]
     }
 ]
