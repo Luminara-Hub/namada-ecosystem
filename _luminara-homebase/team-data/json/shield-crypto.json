@@ -4795,5 +4795,28 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-27T00:02:46.913118+00:00Z",
+        "changes": [
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.shield-crypto.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "6314043",
+                "new_value": "6314432"
+            },
+            {
+                "team": "shield-crypto",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.shield-crypto.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]

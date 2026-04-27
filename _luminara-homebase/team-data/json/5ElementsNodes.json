@@ -29216,5 +29216,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-04-27T00:02:46.913118+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "6314017",
+                "new_value": "6314449"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
