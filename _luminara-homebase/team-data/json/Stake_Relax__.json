@@ -11926,5 +11926,28 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-09T21:39:06.862851+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "6474643",
+                "new_value": "6475028"
+            }
+        ]
     }
 ]
