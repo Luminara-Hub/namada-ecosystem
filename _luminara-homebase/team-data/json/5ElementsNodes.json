@@ -31590,5 +31590,19 @@
                 "new_value": "n/a"
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-23T15:04:59.491931+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
