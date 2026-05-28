@@ -17297,5 +17297,46 @@
                 "new_value": "sync_lag"
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-27T23:43:04.686920+00:00Z",
+        "changes": [
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.EmberStake.service.indexer.latest_block_height",
+                "type": "modified",
+                "old_value": "6699654",
+                "new_value": "6700801"
+            },
+            {
+                "team": "EmberStake",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.EmberStake.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "6699654",
+                "new_value": "6700801"
+            },
+            {
+                "team": "EmberStake",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.EmberStake.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
