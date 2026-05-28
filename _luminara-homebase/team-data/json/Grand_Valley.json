@@ -18088,5 +18088,19 @@
                 "new_value": "up"
             }
         ]
+    },
+    {
+        "timestamp": "2026-05-28T11:56:58.368892+00:00Z",
+        "changes": [
+            {
+                "team": "Grand Valley",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Grand Valley.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
