@@ -5442,5 +5442,19 @@
                 "new_value": "6750126"
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-01T00:12:15.872265+00:00Z",
+        "changes": [
+            {
+                "team": "papadritta",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.papadritta.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            }
+        ]
     }
 ]
