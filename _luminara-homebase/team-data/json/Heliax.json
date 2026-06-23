@@ -18221,5 +18221,37 @@
                 "new_value": false
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-23T20:04:57.689188+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "status",
+                "full_path": "namada.operator.Heliax.service.indexer.status",
+                "type": "modified",
+                "old_value": "down",
+                "new_value": "up"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "version",
+                "full_path": "namada.operator.Heliax.service.indexer.version",
+                "type": "modified",
+                "old_value": "n/a",
+                "new_value": "4.1.0"
+            },
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "is_up_to_date",
+                "full_path": "namada.operator.Heliax.service.indexer.is_up_to_date",
+                "type": "modified",
+                "old_value": false,
+                "new_value": true
+            }
+        ]
     }
 ]
