@@ -29062,5 +29062,19 @@
                 "new_value": "7048430"
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-25T00:12:46.146731+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_ok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
