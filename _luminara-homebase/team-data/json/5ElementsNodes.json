@@ -31791,5 +31791,19 @@
                 "new_value": "1.4.7"
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-25T16:23:17.847081+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_lag"
+            }
+        ]
     }
 ]
