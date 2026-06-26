@@ -29296,5 +29296,28 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-26T02:57:29.328050+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "7060702",
+                "new_value": "7062843"
+            }
+        ]
     }
 ]
