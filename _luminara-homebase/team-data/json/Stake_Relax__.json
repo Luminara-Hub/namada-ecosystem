@@ -12925,5 +12925,28 @@
                 "new_value": "sync_ok"
             }
         ]
+    },
+    {
+        "timestamp": "2026-06-27T21:59:44.075695+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "rpc",
+                "field": "latest_block_height",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.rpc.latest_block_height",
+                "type": "modified",
+                "old_value": "7083724",
+                "new_value": "7084244"
+            },
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
