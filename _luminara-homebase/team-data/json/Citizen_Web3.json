@@ -30310,5 +30310,37 @@
                 "new_value": "7253227"
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-11T11:29:26.792033+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
