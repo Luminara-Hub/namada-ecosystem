@@ -1,7 +1,7 @@
 {
-    "script_start_time": "2026-07-11T20:38:28.126866+00:00Z",
-    "script_end_time": "2026-07-11T20:50:31.220935+00:00Z",
-    "reference_latest_block_height": "7259113",
+    "script_start_time": "2026-07-11T21:40:03.057036+00:00Z",
+    "script_end_time": "2026-07-11T21:52:29.413354+00:00Z",
+    "reference_latest_block_height": "7259636",
     "housefire_reference_latest_block_height": "4624720",
     "required_versions": {
         "interface": "1.33.0",
@@ -52,7 +52,7 @@
                             "version": "0.37.16",
                             "is_up_to_date": true,
                             "namada_version": "201.0.7",
-                            "latest_block_height": "7259099",
+                            "latest_block_height": "7259620",
                             "sync_state": "sync_ok"
                         }
                     ]
@@ -70,39 +70,10 @@
                     "team": "5ElementsNodes",
                     "discord": "h3ll0_friend",
                     "url": "https://namadillo.5elementsnodes.com",
-                    "status": "up",
-                    "version": "1.33.0",
-                    "is_up_to_date": true,
-                    "settings": [
-                        {
-                            "service": "indexer",
-                            "url": "https://index2-namada.5elementsnodes.com",
-                            "status": "up",
-                            "version": "4.1.3",
-                            "is_up_to_date": false,
-                            "latest_block_height": "7259101",
-                            "sync_state": "sync_ok"
-                        },
-                        {
-                            "service": "masp",
-                            "url": "https://masp2-namada.5elementsnodes.com",
-                            "status": "up",
-                            "version": "1.4.7",
-                            "is_up_to_date": true,
-                            "latest_block_height": "7253227",
-                            "sync_state": "sync_nok"
-                        },
-                        {
-                            "service": "rpc",
-                            "url": "https://rpc-namada.5elementsnodes.com",
-                            "status": "up",
-                            "version": "0.37.16",
-                            "is_up_to_date": true,
-                            "namada_version": "201.0.7",
-                            "latest_block_height": "7259101",
-                            "sync_state": "sync_ok"
-                        }
-                    ]
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
                 },
                 {
                     "team": "Hadesguard",
@@ -172,7 +143,7 @@
                             "status": "up",
                             "version": "4.1.0",
                             "is_up_to_date": true,
-                            "latest_block_height": "7259113",
+                            "latest_block_height": "7259635",
                             "sync_state": "sync_ok"
                         },
                         {
@@ -191,7 +162,7 @@
                             "version": "0.37.15",
                             "is_up_to_date": false,
                             "namada_version": "201.0.7",
-                            "latest_block_height": "7259113",
+                            "latest_block_height": "7259635",
                             "sync_state": "sync_ok"
                         }
                     ]
@@ -229,7 +200,7 @@
                             "version": "0.37.16",
                             "is_up_to_date": true,
                             "namada_version": "201.0.7",
-                            "latest_block_height": "7259113",
+                            "latest_block_height": "7259636",
                             "sync_state": "sync_ok"
                         }
                     ]
