@@ -19822,5 +19822,19 @@
                 "new_value": "4.1.0"
             }
         ]
+    },
+    {
+        "timestamp": "2026-07-29T16:00:44.967030+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
