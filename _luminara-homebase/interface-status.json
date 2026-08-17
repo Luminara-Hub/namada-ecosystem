@@ -1,7 +1,7 @@
 {
-    "script_start_time": "2026-08-17T15:46:33.624770+00:00Z",
-    "script_end_time": "2026-08-17T15:55:46.041361+00:00Z",
-    "reference_latest_block_height": "7721102",
+    "script_start_time": "2026-08-17T16:16:16.074846+00:00Z",
+    "script_end_time": "2026-08-17T16:29:41.144924+00:00Z",
+    "reference_latest_block_height": "7721363",
     "housefire_reference_latest_block_height": "0",
     "required_versions": {
         "interface": "1.33.0",
@@ -33,7 +33,7 @@
                             "status": "up",
                             "version": "4.1.0",
                             "is_up_to_date": true,
-                            "latest_block_height": "7721087",
+                            "latest_block_height": "7721347",
                             "sync_state": "sync_ok"
                         },
                         {
@@ -52,7 +52,7 @@
                             "version": "0.37.16",
                             "is_up_to_date": true,
                             "namada_version": "201.0.7",
-                            "latest_block_height": "7721087",
+                            "latest_block_height": "7721347",
                             "sync_state": "sync_ok"
                         }
                     ]
@@ -80,7 +80,7 @@
                             "status": "up",
                             "version": "4.1.3",
                             "is_up_to_date": false,
-                            "latest_block_height": "7721089",
+                            "latest_block_height": "7721349",
                             "sync_state": "sync_ok"
                         },
                         {
@@ -99,7 +99,7 @@
                             "version": "0.37.16",
                             "is_up_to_date": true,
                             "namada_version": "201.0.7",
-                            "latest_block_height": "7721089",
+                            "latest_block_height": "7721349",
                             "sync_state": "sync_ok"
                         }
                     ]
@@ -172,7 +172,7 @@
                             "status": "up",
                             "version": "4.1.0",
                             "is_up_to_date": true,
-                            "latest_block_height": "7408966",
+                            "latest_block_height": "7408994",
                             "sync_state": "sync_nok"
                         },
                         {
@@ -191,7 +191,7 @@
                             "version": "0.37.15",
                             "is_up_to_date": false,
                             "namada_version": "201.0.7",
-                            "latest_block_height": "7552416",
+                            "latest_block_height": "7552735",
                             "sync_state": "sync_nok"
                         }
                     ]
@@ -229,7 +229,7 @@
                             "version": "0.37.16",
                             "is_up_to_date": true,
                             "namada_version": "201.0.7",
-                            "latest_block_height": "7721102",
+                            "latest_block_height": "7721363",
                             "sync_state": "sync_ok"
                         }
                     ]
@@ -393,6 +393,148 @@
                     "team": "papadritta",
                     "discord": "papadritta",
                     "url": "https://ui.papadritta.com",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                }
+            ]
+        },
+        {
+            "network": "housefire",
+            "interface": [
+                {
+                    "team": "Heliax",
+                    "discord": "-",
+                    "url": "https://app.testnet.namada.net",
+                    "status": "up",
+                    "version": "6.6.1",
+                    "is_up_to_date": false,
+                    "settings": [
+                        {
+                            "service": "indexer",
+                            "url": "https://indexer.testnet.namada.net",
+                            "status": "down",
+                            "version": "n/a",
+                            "is_up_to_date": false,
+                            "latest_block_height": "0",
+                            "sync_state": "sync_nok"
+                        },
+                        {
+                            "service": "masp",
+                            "url": "https://masp.testnet.namada.net",
+                            "status": "down",
+                            "version": "n/a",
+                            "is_up_to_date": false,
+                            "latest_block_height": "0",
+                            "sync_state": "sync_nok"
+                        },
+                        {
+                            "service": "rpc",
+                            "url": "https://rpc.testnet.namada.net",
+                            "status": "down",
+                            "version": "n/a",
+                            "is_up_to_date": false,
+                            "namada_version": "n/a",
+                            "latest_block_height": "0",
+                            "sync_state": "sync_nok"
+                        }
+                    ]
+                },
+                {
+                    "team": "EmberStake",
+                    "discord": "4rash",
+                    "url": "https://namadillo-housefire.emberstake.xyz",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "Sproutstake",
+                    "discord": "oneplus",
+                    "url": "https://housefire-interface.sproutstake.space",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "Citizen Web3",
+                    "discord": "alibabaedge, serejandmyself_citizenweb3",
+                    "url": "https://namadillo-housefire.citizenweb3.com",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "deNodes",
+                    "discord": "bombermine",
+                    "url": "https://namadillo-housefire.denodes.xyz",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "max-03",
+                    "discord": "power542",
+                    "url": "https://namadillo.housefire.max-03.xyz",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "TuDudes",
+                    "discord": "sirouk",
+                    "url": "https://interface.housefire.tududes.com",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "MekongLabs",
+                    "discord": "nguyenthenguyen",
+                    "url": "https://namadillo-housefire.pwa.mekonglabs.xyz",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "papadritta",
+                    "discord": "papadritta",
+                    "url": "https://housefire.ui.papadritta.com",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "Natsai",
+                    "discord": "dimibblk",
+                    "url": "https://interface.housefire.natsai.xyz",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "laliola",
+                    "discord": "julvinn",
+                    "url": "https://alpaca.cc0d3e0c033be-ui.laliola.com",
+                    "status": "down",
+                    "version": "n/a",
+                    "is_up_to_date": false,
+                    "settings": []
+                },
+                {
+                    "team": "MELLIFERA",
+                    "discord": "ruslan_mellifera or aleksandr0292",
+                    "url": "https://namadillo-testnet.mellifera.network",
                     "status": "down",
                     "version": "n/a",
                     "is_up_to_date": false,
