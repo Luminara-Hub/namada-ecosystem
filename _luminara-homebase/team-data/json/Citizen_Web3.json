@@ -31752,5 +31752,37 @@
                 "new_value": "201.0.7"
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-04T19:46:45.716117+00:00Z",
+        "changes": [
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "201.0.7",
+                "new_value": "n/a"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "status",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.status",
+                "type": "modified",
+                "old_value": "up",
+                "new_value": "down"
+            },
+            {
+                "team": "Citizen Web3",
+                "service": "rpc",
+                "field": "version",
+                "full_path": "namada.operator.Citizen Web3.service.rpc.version",
+                "type": "modified",
+                "old_value": "0.37.15",
+                "new_value": "n/a"
+            }
+        ]
     }
 ]
