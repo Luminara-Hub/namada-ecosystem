@@ -1,6 +1,6 @@
 {
-    "script_start_time": "2026-09-05T11:19:04.266209+00:00Z",
-    "script_end_time": "2026-09-05T11:32:23.550725+00:00Z",
+    "script_start_time": "2026-09-05T13:56:00.699931+00:00Z",
+    "script_end_time": "2026-09-05T14:09:36.577437+00:00Z",
     "reference_latest_block_height": "7914106",
     "housefire_reference_latest_block_height": "0",
     "required_versions": {
@@ -172,7 +172,7 @@
                             "status": "up",
                             "version": "4.1.0",
                             "is_up_to_date": true,
-                            "latest_block_height": "7417464",
+                            "latest_block_height": "7417467",
                             "sync_state": "sync_nok"
                         },
                         {
@@ -187,11 +187,11 @@
                         {
                             "service": "rpc",
                             "url": "https://rpc.namada-archive.citizenweb3.com",
-                            "status": "up",
-                            "version": "0.37.15",
+                            "status": "down",
+                            "version": "n/a",
                             "is_up_to_date": false,
-                            "namada_version": "201.0.7",
-                            "latest_block_height": "7739713",
+                            "namada_version": "n/a",
+                            "latest_block_height": "0",
                             "sync_state": "sync_nok"
                         }
                     ]
