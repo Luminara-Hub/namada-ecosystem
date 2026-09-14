@@ -13560,5 +13560,19 @@
                 "new_value": "down"
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-14T22:37:50.611074+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "201.0.7",
+                "new_value": "201.0.10"
+            }
+        ]
     }
 ]
