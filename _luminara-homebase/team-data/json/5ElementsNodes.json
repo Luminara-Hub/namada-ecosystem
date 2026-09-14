@@ -33568,5 +33568,37 @@
                 "new_value": "201.0.10"
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-14T21:23:25.678325+00:00Z",
+        "changes": [
+            {
+                "team": "5ElementsNodes",
+                "service": "masp",
+                "field": "sync_state",
+                "full_path": "namada.operator.5ElementsNodes.service.masp.sync_state",
+                "type": "modified",
+                "old_value": "sync_lag",
+                "new_value": "sync_nok"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "url",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.url",
+                "type": "modified",
+                "old_value": "https://rpc.namada.net",
+                "new_value": "https://rpc-namada.5elementsnodes.com"
+            },
+            {
+                "team": "5ElementsNodes",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.5ElementsNodes.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "201.0.7",
+                "new_value": "201.0.10"
+            }
+        ]
     }
 ]
