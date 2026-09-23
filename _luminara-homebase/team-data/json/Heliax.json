@@ -20416,5 +20416,19 @@
                 "new_value": "201.0.7"
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-23T01:39:35.808629+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "rpc",
+                "field": "namada_version",
+                "full_path": "namada.operator.Heliax.service.rpc.namada_version",
+                "type": "modified",
+                "old_value": "201.0.10",
+                "new_value": "201.0.7"
+            }
+        ]
     }
 ]
