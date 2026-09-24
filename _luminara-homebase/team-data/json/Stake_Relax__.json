@@ -13653,5 +13653,19 @@
                 "new_value": "201.0.11"
             }
         ]
+    },
+    {
+        "timestamp": "2026-09-24T18:33:18.925917+00:00Z",
+        "changes": [
+            {
+                "team": "Stake&Relax \ud83e\udda5",
+                "service": "rpc",
+                "field": "sync_state",
+                "full_path": "namada.operator.Stake&Relax \ud83e\udda5.service.rpc.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
