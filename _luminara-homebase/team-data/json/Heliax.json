@@ -20680,5 +20680,19 @@
                 "new_value": "201.0.12"
             }
         ]
+    },
+    {
+        "timestamp": "2026-10-13T17:03:26.470749+00:00Z",
+        "changes": [
+            {
+                "team": "Heliax",
+                "service": "indexer",
+                "field": "sync_state",
+                "full_path": "namada.operator.Heliax.service.indexer.sync_state",
+                "type": "modified",
+                "old_value": "sync_nok",
+                "new_value": "sync_ok"
+            }
+        ]
     }
 ]
